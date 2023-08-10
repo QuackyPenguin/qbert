@@ -13,6 +13,7 @@ state = START
 score = 0
 
 cubes: Optional[List[Cube]] = []
+something = 5
 player: Optional[Player] = None
 level: Optional[Level] = None
 round_completed: Optional[bool] = None
