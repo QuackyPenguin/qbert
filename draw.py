@@ -13,6 +13,11 @@ def draw(game_window, font):
 
         variables.player.draw()
 
+        for red_ball in variables.red_balls:
+            red_ball.draw()
+            if red_ball.destroy:
+                variables.red_balls.remove(red_ball)
+
         text = font.render(str(variables.score), True, COLOR_ORANGE)
         text_rect = text.get_rect(center=(100, 120))
         game_window.blit(text, text_rect)

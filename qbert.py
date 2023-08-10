@@ -1,10 +1,12 @@
+import random
 from typing import Optional, List
 import pygame
 
 import variables
 from constants import *
-from help_functions import *
+from initialize_game import *
 from draw import draw
+from red_ball import RedBall
 
 # initialize window
 
@@ -18,7 +20,7 @@ pygame.display.set_caption(caption)
 
 # initialize game
 
-
+nextRedBallTime = random.randint(2, 10) * 25 * 15
 initialize_game(game_window)
 
 # running loop
@@ -38,6 +40,7 @@ while running:
         if pygame.mouse.get_pressed()[0]:
             variables.state = PLAYING
     elif variables.state == PLAYING:
+        variables.game_time += 25
         if variables.jump_direction_player == STANDING:
             if keys[pygame.K_LEFT]:
                 variables.jump_direction_player = UP_LEFT
@@ -52,23 +55,41 @@ while running:
 
     pygame.display.update()
 
-    if variables.round_completed:
-        print(variables.player.x, variables.player.y)
-        (variables.player.x, variables.player.y, variables.player.image,
-         variables.player.cubeNumber, variables.player.rowNumber) = (
-            X_CENTER - CUBE_SIZE * 3 // 8,
-            Y_CENTER - CUBE_SIZE * 3 // 8,
-            IMAGE_PLAYER_LEFT_DOWN, 0, 1)
+    if variables.state == PLAYING:
+        if variables.round_completed:
+            print(variables.player.x, variables.player.y)
+            (variables.player.x, variables.player.y, variables.player.image,
+             variables.player.cubeNumber, variables.player.rowNumber) = (
+                X_CENTER - CUBE_SIZE * 3 // 8,
+                Y_CENTER - CUBE_SIZE * 3 // 8,
+                IMAGE_PLAYER_LEFT_DOWN, 0, 1)
 
-        variables.score += 250
-        if variables.level_completed:
             variables.score += 250
-            variables.level_completed = False
+            if variables.level_completed:
+                variables.score += 250
+                variables.level_completed = False
 
-        variables.round_completed = False
+            variables.round_completed = False
 
-    if variables.player.lives == 0:
-        initialize_game(game_window)
-        variables.score = 0
+        if variables.player.lives == 0:
+            initialize_game(game_window)
+            variables.score = 0
+            variables.game_time = 0
+
+        if nextRedBallTime == variables.game_time:
+            randCube = random.randint(1, 2)
+            newRedBall = RedBall(variables.cubes[randCube].x + CUBE_SIZE * 3 // 8, variables.cubes[randCube].y,
+                                 IMAGE_RED_BALL, game_window, variables.game_time, randCube)
+            variables.red_balls.append(newRedBall)
+            nextRedBallTime = random.randint(2, 10) * 25 * 15 + variables.game_time
+
+        collision = False
+        for red_ball in variables.red_balls:
+            if red_ball.cubeNumber == variables.player.cubeNumber:
+                variables.player.lives -= 1
+                collision = True
+
+        if collision:
+            variables.red_balls = []
 
 pygame.quit()
