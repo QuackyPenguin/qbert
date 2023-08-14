@@ -20,10 +20,13 @@ DOWN_RIGHT = 2
 UP_LEFT = 3
 UP_RIGHT = 4
 FALLING = 5
+LEFT_SPIN = 6
+RIGHT_SPIN = 7
 
 START = 0
 PLAYING = 1
 GAME_OVER = 2
+ONE_SECOND_PAUSE = 3
 
 FONT_SIZE = 36
 
@@ -34,8 +37,23 @@ PATH_IMAGE_PLAYER_RIGHT_DOWN = 'images/playerrightdown.png'
 PATH_IMAGE_PLAYER_LEFT_UP = 'images/playerleftup.png'
 PATH_IMAGE_PLAYER_RIGHT_UP = 'images/playerrightup.png'
 PATH_IMAGE_PLAYER_LITTLE = 'images/playerlittle.png'
+PATH_IMAGE_PLAYER_LEFT_DOWN_JUMP = 'images/playerleftdownjump.png'
+PATH_IMAGE_PLAYER_RIGHT_DOWN_JUMP = 'images/playerrightdownjump.png'
+PATH_IMAGE_PLAYER_LEFT_UP_JUMP = 'images/playerleftupjump.png'
+PATH_IMAGE_PLAYER_RIGHT_UP_JUMP = 'images/playerrightupjump.png'
+PATH_IMAGE_PLAYER_SPIN_1 = 'images/spin1.png'
+PATH_IMAGE_PLAYER_SPIN_2 = 'images/spin2.png'
+
+PATH_IMAGE_QBERT_LOSES = 'images/qbertloses.png'
 
 PATH_IMAGE_RED_BALL = 'images/redEnemyBall.png'
+PATH_IMAGE_PURPLE_BALL = 'images/purpleEnemyBall.png'
+PATH_IMAGE_COILY_LEFT = 'images/coilyleft.png'
+PATH_IMAGE_COILY_RIGHT = 'images/coilyright.png'
+PATH_IMAGE_COILY_LEFT_JUMP = 'images/coilyleftjump.png'
+PATH_IMAGE_COILY_RIGHT_JUMP = 'images/coilyrightjump.png'
+
+PATH_IMAGE_DISK = 'images/disk.png'
 
 IMAGE_START_PAGE = pygame.image.load(PATH_IMAGE_START_PAGE)
 
@@ -43,9 +61,25 @@ IMAGE_PLAYER_LEFT_DOWN = pygame.image.load(PATH_IMAGE_PLAYER_LEFT_DOWN)
 IMAGE_PLAYER_RIGHT_DOWN = pygame.image.load(PATH_IMAGE_PLAYER_RIGHT_DOWN)
 IMAGE_PLAYER_LEFT_UP = pygame.image.load(PATH_IMAGE_PLAYER_LEFT_UP)
 IMAGE_PLAYER_RIGHT_UP = pygame.image.load(PATH_IMAGE_PLAYER_RIGHT_UP)
+IMAGE_PLAYER_LEFT_DOWN_JUMP = pygame.image.load(PATH_IMAGE_PLAYER_LEFT_DOWN_JUMP)
+IMAGE_PLAYER_RIGHT_DOWN_JUMP = pygame.image.load(PATH_IMAGE_PLAYER_RIGHT_DOWN_JUMP)
+IMAGE_PLAYER_LEFT_UP_JUMP = pygame.image.load(PATH_IMAGE_PLAYER_LEFT_UP_JUMP)
+IMAGE_PLAYER_RIGHT_UP_JUMP = pygame.image.load(PATH_IMAGE_PLAYER_RIGHT_UP_JUMP)
 IMAGE_PLAYER_LITTLE = pygame.image.load(PATH_IMAGE_PLAYER_LITTLE)
+IMAGE_PLAYER_SPIN_1 = pygame.image.load(PATH_IMAGE_PLAYER_SPIN_1)
+IMAGE_PLAYER_SPIN_2 = pygame.image.load(PATH_IMAGE_PLAYER_SPIN_2)
+IMAGE_PLAYER_SPINS = [IMAGE_PLAYER_SPIN_1, IMAGE_PLAYER_SPIN_2]
+
+IMAGE_QBERT_LOSES = pygame.image.load(PATH_IMAGE_QBERT_LOSES)
 
 IMAGE_RED_BALL = pygame.image.load(PATH_IMAGE_RED_BALL)
+IMAGE_PURPLE_BALL = pygame.image.load(PATH_IMAGE_PURPLE_BALL)
+IMAGE_COILY_LEFT = pygame.image.load(PATH_IMAGE_COILY_LEFT)
+IMAGE_COILY_RIGHT = pygame.image.load(PATH_IMAGE_COILY_RIGHT)
+IMAGE_COILY_LEFT_JUMP = pygame.image.load(PATH_IMAGE_COILY_LEFT_JUMP)
+IMAGE_COILY_RIGHT_JUMP = pygame.image.load(PATH_IMAGE_COILY_RIGHT_JUMP)
+
+IMAGE_DISK = pygame.image.load(PATH_IMAGE_DISK)
 
 X_CENTER = GAME_WINDOW_WIDTH // 2
 Y_CENTER = 120

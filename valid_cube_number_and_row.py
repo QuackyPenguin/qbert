@@ -1,6 +1,8 @@
 def valid_cube_number_and_row(number, row):
     if number < 0 or number > 27:
         return False
+    if row < 1 or row > 7:
+        return False
 
     if number > 20 and row != 7:
         return False

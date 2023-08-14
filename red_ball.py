@@ -1,22 +1,20 @@
 import random
 
-from constants import *
 import variables
+from constants import *
+from enemy import Enemy, JUMP_DURATION
 from valid_cube_number_and_row import valid_cube_number_and_row
 
-JUMP_DURATION = 24
 
-
-class RedBall:
-    def __init__(self, x, y, image, window, time, cube_number):
-        self.x = x
-        self.y = y - CUBE_SIZE * 4 - CUBE_SIZE * 1 // 4
-        self.image = image
-        self.window = window
-        self.cubeNumber = cube_number
+class RedBall(Enemy):
+    def __init__(self, image, window, time):
+        super().__init__(image, window)
+        rand_cube = random.randint(1, 2)
+        self.x = variables.cubes[rand_cube].x
+        self.y = variables.cubes[rand_cube].y - CUBE_SIZE * 4
+        self.cubeNumber = rand_cube
         self.rowNumber = 2
         self.jumpDirection = FALLING
-        self.jumpCount = JUMP_DURATION
         self.destroy = False
         self.time = time
 
@@ -28,16 +26,11 @@ class RedBall:
                 self.jumpDirection = DOWN_LEFT
             else:
                 self.jumpDirection = random.randint(1, 2)
-            # x_center - CUBE_SIZE * 3 // 8, y_center - CUBE_SIZE * 3 // 8
-            self.x = variables.cubes[self.cubeNumber].x + CUBE_SIZE * 3 // 8
-            self.y = variables.cubes[self.cubeNumber].y - CUBE_SIZE * 1 // 4
+            self.x = variables.cubes[self.cubeNumber].x
+            self.y = variables.cubes[self.cubeNumber].y
             self.jumpCount = JUMP_DURATION
 
         elif self.jumpCount > 0:
-            change_cube = False
-            if self.jumpCount == (JUMP_DURATION * 2 // 3):
-                change_cube = True
-
             if self.jumpDirection == DOWN_LEFT:
                 self.x -= CUBE_SIZE // (2 * JUMP_DURATION - 1)
                 if self.jumpCount > JUMP_DURATION * 2 // 3:
@@ -45,7 +38,7 @@ class RedBall:
                 else:
                     self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3 - 1)
                 self.jumpCount -= 1
-                if change_cube:
+                if self.jumpCount == 0:
                     self.cubeNumber = self.cubeNumber + self.rowNumber
                     self.rowNumber += 1
 
@@ -56,7 +49,7 @@ class RedBall:
                 else:
                     self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3 - 1)
                 self.jumpCount -= 1
-                if change_cube:
+                if self.jumpCount == 0:
                     self.cubeNumber = self.cubeNumber + self.rowNumber + 1
                     self.rowNumber += 1
 
@@ -64,8 +57,8 @@ class RedBall:
                 self.y += (CUBE_SIZE * 4) // JUMP_DURATION
                 self.jumpCount -= 1
 
-            if change_cube:
+            if self.jumpCount == 0:
                 if self.rowNumber > 7:
                     self.destroy = True
 
-        self.window.blit(self.image, (self.x, self.y))
+        self.window.blit(self.image, (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4))

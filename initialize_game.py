@@ -1,8 +1,8 @@
 import variables
 from constants import *
-from player import Player
-from level import Level
 from cube import Cube
+from level import Level
+from player import Player
 
 
 def initialize_game(game_window):
@@ -66,7 +66,7 @@ def initialize_game(game_window):
         Cube(x28, y28, game_window)
     ]
 
-    variables.player = Player(X_CENTER - CUBE_SIZE * 3 // 8, Y_CENTER - CUBE_SIZE * 3 // 8,
-                              IMAGE_PLAYER_LEFT_DOWN, game_window)
+    variables.player = Player(X_CENTER, Y_CENTER, IMAGE_PLAYER_LEFT_DOWN, game_window)
     variables.level = Level()
     variables.round_completed = False
+    variables.jump_direction_player = STANDING

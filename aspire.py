@@ -51,11 +51,11 @@ imgPlayerUpRight = '/Users/estellaliu/Desktop/qbertproject/playerupright.png'
 
 imgPlayerDownLeftJump = '/Users/estellaliu/Desktop/qbertproject/playerleftdownjump.png'
 
-imgPlayerDownRightJump = '/Users/estellaliu/Desktop/qbertproject/playerdownrightjump.png'
+imgPlayerDownRightJump = '/Users/estellaliu/Desktop/qbertproject/playerrightdownjump.png'
 
 imgPlayerUpLeftJump = '/Users/estellaliu/Desktop/qbertproject/playerupleftJump.png'
 
-imgPlayerUpRightJump = '/Users/estellaliu/Desktop/qbertproject/playeruprightjump.png'
+imgPlayerUpRightJump = '/Users/estellaliu/Desktop/qbertproject/playerrightupjump.png'
 
 imgPlayer = '/Users/estellaliu/Desktop/qbertproject/playerleftdown.png'
 
@@ -67,9 +67,9 @@ imgNothingBall = '/Users/estellaliu/Desktop/qbertproject/nothingEnemyBall.png'
 
 imgPlayerSwear = '/Users/estellaliu/Desktop/qbertproject/swearQbert.png'
 
-imgPlayerSpindownleft = '/Users/estellaliu/Desktop/qbertproject/downleftspin.png'
+imgPlayerSpindownleft = '/Users/estellaliu/Desktop/qbertproject/spin1.png'
 
-imgPlayerSpindownright = '/Users/estellaliu/Desktop/qbertproject/downrightspin.png'
+imgPlayerSpindownright = '/Users/estellaliu/Desktop/qbertproject/spin2.png'
 
 imgDisk = '/Users/estellaliu/Desktop/qbertproject/disk.png'
 

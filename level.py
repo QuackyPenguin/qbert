@@ -15,7 +15,8 @@ class Level:
 
         if new_color != variables.cubes[number].color and new_color == self.requestedColors[self.level - 1]:
             variables.score += 25
-            variables.cubes[number].color = new_color
+
+        variables.cubes[number].color = new_color
 
         flag = True
         for cube in variables.cubes:
