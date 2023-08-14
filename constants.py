@@ -54,6 +54,7 @@ PATH_IMAGE_COILY_LEFT_JUMP = 'images/coilyleftjump.png'
 PATH_IMAGE_COILY_RIGHT_JUMP = 'images/coilyrightjump.png'
 
 PATH_IMAGE_DISK = 'images/disk.png'
+PATH_IMAGE_SWEAR = 'images/swear.png'
 
 IMAGE_START_PAGE = pygame.image.load(PATH_IMAGE_START_PAGE)
 
@@ -80,6 +81,7 @@ IMAGE_COILY_LEFT_JUMP = pygame.image.load(PATH_IMAGE_COILY_LEFT_JUMP)
 IMAGE_COILY_RIGHT_JUMP = pygame.image.load(PATH_IMAGE_COILY_RIGHT_JUMP)
 
 IMAGE_DISK = pygame.image.load(PATH_IMAGE_DISK)
+IMAGE_SWEAR = pygame.image.load(PATH_IMAGE_SWEAR)
 
 X_CENTER = GAME_WINDOW_WIDTH // 2
 Y_CENTER = 120

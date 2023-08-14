@@ -11,10 +11,14 @@ def draw(game_window, font):
         for cube in variables.cubes:
             cube.draw()
 
-        if variables.player.leftPlatform:
-            game_window.blit(IMAGE_DISK, (variables.cubes[6].x - CUBE_SIZE, variables.cubes[6].y - CUBE_SIZE //2))
-        if variables.player.rightPlatform:
-            game_window.blit(IMAGE_DISK, (variables.cubes[9].x + CUBE_SIZE, variables.cubes[9].y - CUBE_SIZE // 2))
+        for disc in variables.discs:
+            if disc.used or disc.inuse:
+                continue
+            offset = 1
+            if disc.side == 2:
+                offset = -1
+            game_window.blit(IMAGE_DISK, (variables.cubes[disc.cube + offset].x + CUBE_SIZE * offset * (-1),
+                                          variables.cubes[disc.cube + offset].y - CUBE_SIZE // 2))
 
         variables.player.draw()
 
@@ -32,7 +36,8 @@ def draw(game_window, font):
         text_rect = text.get_rect(center=(750, 120))
         game_window.blit(text, text_rect)
     elif variables.state == ONE_SECOND_PAUSE:
-        pass
+        if variables.game_time * variables.speed >= 2000:
+            game_window.blit(IMAGE_SWEAR, (variables.player.x+65, variables.player.y - 65))
     elif variables.state == GAME_OVER:
-        # game_window.blit(IMAGE_QBERT_LOSES, (0,0))
-        pass
+        game_window.blit(IMAGE_QBERT_LOSES, (0, 0))
+    pass

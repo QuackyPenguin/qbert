@@ -3,7 +3,7 @@ import random
 import variables
 from constants import *
 from enemy import Enemy, JUMP_DURATION
-from valid_cube_number_and_row import valid_cube_number_and_row
+from valid_cube_number_and_row import valid_cube_number_and_row, valid_cube_number_and_row_coily
 
 EGG = 0
 HATCHING = 1
@@ -11,30 +11,14 @@ SNAKE = 2
 
 
 def direction(coily_cube, coily_row, player_cube, player_row):
-    if player_row == 4:
-        if player_cube == 5:
-            if coily_row == 5 and coily_cube == 10:
-                return UP_LEFT, IMAGE_COILY_LEFT
-            else:
-                player_row = 5
-                player_cube = 10
-        elif player_cube == 10:
-            if coily_row == 5 and coily_cube == 14:
-                return UP_RIGHT, IMAGE_COILY_RIGHT
-            else:
-                player_row = 5
-                player_cube = 14
-
     coily_modifier = (coily_row * (coily_row + 1) // 2 + coily_row * (coily_row - 1) // 2) // 2
     coily_modifier = coily_modifier - ((coily_row + 1) % 2)
     mod_coily_cube = coily_cube - coily_modifier
     player_modifier = (player_row * (player_row + 1) // 2 + player_row * (player_row - 1) // 2) // 2
     player_modifier = player_modifier - ((player_row + 1) % 2)
     mod_player_cube = player_cube - player_modifier
-    print(player_cube, player_row)
-    print(coily_cube, coily_row)
-    print(mod_player_cube, mod_coily_cube)
 
+    randomized_1 = False
     return_value_1 = (None, None)
 
     if player_row > coily_row:
@@ -54,6 +38,7 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                     else:
                         return_value_1 = DOWN_RIGHT, IMAGE_COILY_RIGHT
                 else:
+                    randomized_1 = True
                     random_number = random.randint(1, 2)
                     if random_number == 1:
                         return_value_1 = DOWN_LEFT, IMAGE_COILY_LEFT
@@ -76,12 +61,14 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                     else:
                         return_value_1 = UP_LEFT, IMAGE_COILY_LEFT
                 else:
+                    randomized_1 = True
                     random_number = random.randint(1, 2)
                     if random_number == 1:
                         return_value_1 = UP_LEFT, IMAGE_COILY_LEFT
                     else:
                         return_value_1 = UP_RIGHT, IMAGE_COILY_RIGHT
     else:
+        randomized_1 = True
         while True:
             random_number = random.randint(1, 4)
             if random_number == 1:
@@ -104,10 +91,11 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                                              coily_row - 1) and mod_coily_cube < mod_player_cube:
                     return_value_1 = UP_RIGHT, IMAGE_COILY_RIGHT
                     break
-    print(1)
+
     mod_coily_cube += ((coily_row + 1) % 2)
     mod_player_cube += ((player_row + 1) % 2)
 
+    randomized_2 = False
     return_value_2 = (None, None)
 
     if player_row > coily_row:
@@ -127,6 +115,7 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                     else:
                         return_value_2 = DOWN_RIGHT, IMAGE_COILY_RIGHT
                 else:
+                    randomized_2 = True
                     random_number = random.randint(1, 2)
                     if random_number == 1:
                         return_value_2 = DOWN_LEFT, IMAGE_COILY_LEFT
@@ -149,12 +138,14 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                     else:
                         return_value_2 = UP_RIGHT, IMAGE_COILY_RIGHT
                 else:
+                    randomized_2 = True
                     random_number = random.randint(1, 2)
                     if random_number == 1:
                         return_value_2 = UP_LEFT, IMAGE_COILY_LEFT
                     else:
                         return_value_2 = UP_RIGHT, IMAGE_COILY_RIGHT
     else:
+        randomized_2 = True
         while True:
             random_number = random.randint(1, 4)
             if random_number == 1:
@@ -177,7 +168,12 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                                              coily_row - 1) and mod_coily_cube < mod_player_cube:
                     return_value_2 = UP_RIGHT, IMAGE_COILY_RIGHT
                     break
-    print(2)
+
+    if randomized_1 and not randomized_2:
+        return return_value_2
+    if not randomized_1 and randomized_2:
+        return return_value_1
+
     random_number = random.randint(1, 2)
     if random_number == 1:
         return return_value_1
@@ -331,12 +327,12 @@ class Coily(Enemy):
                 if self.jumpDirection == DOWN_LEFT or self.jumpDirection == UP_LEFT:
                     self.image = IMAGE_COILY_LEFT_JUMP
                 else:
-                    self.image =    IMAGE_COILY_RIGHT_JUMP
+                    self.image = IMAGE_COILY_RIGHT_JUMP
                 self.jumpDirection = STANDING
                 self.jumpCount = JUMP_DURATION // 2
                 self.x = variables.cubes[self.cubeNumber].x
                 self.y = variables.cubes[self.cubeNumber].y
-                if not valid_cube_number_and_row(self.cubeNumber, self.rowNumber):
+                if not valid_cube_number_and_row_coily(self.cubeNumber, self.rowNumber):
                     self.destroy = True
 
         self.window.blit(self.image, (self.x + CUBE_SIZE * 1 // 8, self.y - CUBE_SIZE * 3 // 4))
