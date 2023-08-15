@@ -86,7 +86,7 @@ class Player:
                     self.rowNumber -= 1
 
             elif self.jumpDirection == LEFT_SPIN:
-                self.x += ((variables.cubes[0].x) - variables.helpx) // 44
+                self.x += (variables.cubes[0].x - variables.helpx) // 44
                 self.y -= (variables.helpy + CUBE_SIZE - variables.cubes[0].y) // 44
                 if self.image == IMAGE_PLAYER_SPINS[0]:
                     self.image = IMAGE_PLAYER_SPINS[1]
@@ -100,7 +100,7 @@ class Player:
                     self.image = IMAGE_PLAYER_LEFT_DOWN
 
             elif self.jumpDirection == RIGHT_SPIN:
-                self.x -= (variables.helpx - (variables.cubes[0].x)) // 44
+                self.x -= (variables.helpx - variables.cubes[0].x) // 44
                 self.y -= (variables.helpy + CUBE_SIZE - variables.cubes[0].y) // 44
                 if self.image == IMAGE_PLAYER_SPINS[0]:
                     self.image = IMAGE_PLAYER_SPINS[1]

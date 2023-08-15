@@ -1,13 +1,6 @@
-import random
-
-import variables
-from coily import Coily
 from draw import draw
-from enemy import Enemy
 from initialize_game import *
-from red_ball import RedBall
 from valid_cube_number_and_row import valid_cube_number_and_row
-
 
 # initialize window
 
@@ -41,6 +34,7 @@ while running:
             initialize_game(game_window)
             counter = 0
             variables.round_completed = True
+            variables.game_time = 0
 
     elif variables.state == PLAYING:
         if variables.jump_direction_player == STANDING:
@@ -92,6 +86,8 @@ while running:
                     disc.inuse = True
                     variables.helpx = variables.player.x
                     variables.helpy = variables.player.y
+                    variables.player.cubeNumber = disc.cube
+                    variables.player.rowNumber = disc.row
                     break
 
         if variables.player.lives == 0:

@@ -6,6 +6,9 @@ from constants import *
 from disc import Disc
 from enemy import Enemy
 from red_ball import RedBall
+from slick import Slick
+from ugg import Ugg
+from wrongway import Wrongway
 
 
 class Level:
@@ -47,11 +50,13 @@ class Level:
         variables.enemies = []
 
         number_of_discs = 7
-        if (self.level == 2 and (self.round == 1 or self.round == 2)) or (self.level == 3 and (self.round == 3 or self.round == 4)):
+        if (self.level == 2 and (self.round == 1 or self.round == 2)) or (
+                self.level == 3 and (self.round == 3 or self.round == 4)):
             number_of_discs = 3
         elif (self.level == 3 and (self.round == 1 or self.round == 2)) or (self.level == 4 and self.round == 4):
             number_of_discs = 4
-        elif (self.level == 4 and (self.round == 1 or self.round == 2)) or (self.level == 5 and (self.round == 2 or self.round == 3)):
+        elif (self.level == 4 and (self.round == 1 or self.round == 2)) or (
+                self.level == 5 and (self.round == 2 or self.round == 3)):
             number_of_discs = 6
         elif self.level == 5 and self.round == 1:
             number_of_discs = 7
@@ -75,6 +80,8 @@ class Level:
         coily_odds = 1 / 3
         number_of_red_balls = 0
         coily_alive = False
+        if not coily_alive:
+            return Ugg(IMAGE_UGG_LEFT, game_window, variables.game_time)
 
         for enemy in variables.enemies:
             if isinstance(enemy, RedBall):

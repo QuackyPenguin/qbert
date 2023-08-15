@@ -2,7 +2,7 @@ import random
 
 import variables
 from constants import *
-from enemy import Enemy, JUMP_DURATION
+from enemy import JUMP_DURATION, Enemy
 from valid_cube_number_and_row import valid_cube_number_and_row, valid_cube_number_and_row_coily
 
 EGG = 0
@@ -12,10 +12,8 @@ SNAKE = 2
 
 def direction(coily_cube, coily_row, player_cube, player_row):
     coily_modifier = (coily_row * (coily_row + 1) // 2 + coily_row * (coily_row - 1) // 2) // 2
-    coily_modifier = coily_modifier - ((coily_row + 1) % 2)
     mod_coily_cube = coily_cube - coily_modifier
     player_modifier = (player_row * (player_row + 1) // 2 + player_row * (player_row - 1) // 2) // 2
-    player_modifier = player_modifier - ((player_row + 1) % 2)
     mod_player_cube = player_cube - player_modifier
 
     randomized_1 = False
@@ -33,7 +31,7 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                 return_value_1 = DOWN_LEFT, IMAGE_COILY_LEFT
             else:
                 if player_row - coily_row == 1:
-                    if coily_row % 2 == 1:
+                    if coily_row % 2 == 0:
                         return_value_1 = DOWN_LEFT, IMAGE_COILY_LEFT
                     else:
                         return_value_1 = DOWN_RIGHT, IMAGE_COILY_RIGHT
@@ -56,7 +54,7 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                 return_value_1 = UP_LEFT, IMAGE_COILY_LEFT
             else:
                 if coily_row - player_row == 1:
-                    if coily_row % 2 == 0:
+                    if coily_row % 2 == 1:
                         return_value_1 = UP_RIGHT, IMAGE_COILY_RIGHT
                     else:
                         return_value_1 = UP_LEFT, IMAGE_COILY_LEFT
@@ -69,28 +67,29 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                         return_value_1 = UP_RIGHT, IMAGE_COILY_RIGHT
     else:
         randomized_1 = True
-        while True:
-            random_number = random.randint(1, 4)
-            if random_number == 1:
-                if valid_cube_number_and_row(coily_cube + coily_row,
-                                             coily_row + 1) and mod_coily_cube > mod_player_cube:
-                    return_value_1 = DOWN_LEFT, IMAGE_COILY_LEFT
-                    break
-            elif random_number == 2:
-                if valid_cube_number_and_row(coily_cube + coily_row + 1,
-                                             coily_row + 1) and mod_coily_cube < mod_player_cube:
-                    return_value_1 = DOWN_RIGHT, IMAGE_COILY_RIGHT
-                    break
-            elif random_number == 3:
-                if valid_cube_number_and_row(coily_cube - coily_row,
-                                             coily_row - 1) and mod_coily_cube > mod_player_cube:
-                    return_value_1 = UP_LEFT, IMAGE_COILY_LEFT
-                    break
-            else:
-                if valid_cube_number_and_row(coily_cube - coily_row - 1,
-                                             coily_row - 1) and mod_coily_cube < mod_player_cube:
-                    return_value_1 = UP_RIGHT, IMAGE_COILY_RIGHT
-                    break
+        option_array = []
+        if valid_cube_number_and_row(coily_cube + coily_row,
+                                     coily_row + 1) and mod_coily_cube > mod_player_cube:
+            option_array.append(1)
+        if valid_cube_number_and_row(coily_cube + coily_row + 1,
+                                     coily_row + 1) and mod_coily_cube < mod_player_cube:
+            option_array.append(2)
+        if valid_cube_number_and_row(coily_cube - coily_row,
+                                     coily_row - 1) and mod_coily_cube > mod_player_cube:
+            option_array.append(3)
+        if valid_cube_number_and_row(coily_cube - coily_row - 1,
+                                     coily_row - 1) and mod_coily_cube < mod_player_cube:
+            option_array.append(4)
+
+        random_number = random.randint(0, len(option_array) - 1)
+        if option_array[random_number] == 1:
+            return_value_1 = DOWN_LEFT, IMAGE_COILY_LEFT
+        elif option_array[random_number] == 2:
+            return_value_1 = DOWN_RIGHT, IMAGE_COILY_RIGHT
+        elif option_array[random_number] == 3:
+            return_value_1 = UP_LEFT, IMAGE_COILY_LEFT
+        else:
+            return_value_1 = UP_RIGHT, IMAGE_COILY_RIGHT
 
     mod_coily_cube += ((coily_row + 1) % 2)
     mod_player_cube += ((player_row + 1) % 2)
@@ -110,7 +109,7 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                 return_value_2 = DOWN_LEFT, IMAGE_COILY_LEFT
             else:
                 if player_row - coily_row == 1:
-                    if coily_row % 2 == 0:
+                    if coily_row % 2 == 1:
                         return_value_2 = DOWN_LEFT, IMAGE_COILY_LEFT
                     else:
                         return_value_2 = DOWN_RIGHT, IMAGE_COILY_RIGHT
@@ -133,7 +132,7 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                 return_value_2 = UP_LEFT, IMAGE_COILY_LEFT
             else:
                 if coily_row - player_row == 1:
-                    if coily_row % 2 == 0:
+                    if coily_row % 2 == 1:
                         return_value_2 = UP_LEFT, IMAGE_COILY_LEFT
                     else:
                         return_value_2 = UP_RIGHT, IMAGE_COILY_RIGHT
@@ -146,28 +145,29 @@ def direction(coily_cube, coily_row, player_cube, player_row):
                         return_value_2 = UP_RIGHT, IMAGE_COILY_RIGHT
     else:
         randomized_2 = True
-        while True:
-            random_number = random.randint(1, 4)
-            if random_number == 1:
-                if valid_cube_number_and_row(coily_cube + coily_row,
-                                             coily_row + 1) and mod_coily_cube > mod_player_cube:
-                    return_value_2 = DOWN_LEFT, IMAGE_COILY_LEFT
-                    break
-            elif random_number == 2:
-                if valid_cube_number_and_row(coily_cube + coily_row + 1,
-                                             coily_row + 1) and mod_coily_cube < mod_player_cube:
-                    return_value_2 = DOWN_RIGHT, IMAGE_COILY_RIGHT
-                    break
-            elif random_number == 3:
-                if valid_cube_number_and_row(coily_cube - coily_row,
-                                             coily_row - 1) and mod_coily_cube > mod_player_cube:
-                    return_value_2 = UP_LEFT, IMAGE_COILY_LEFT
-                    break
-            else:
-                if valid_cube_number_and_row(coily_cube - coily_row - 1,
-                                             coily_row - 1) and mod_coily_cube < mod_player_cube:
-                    return_value_2 = UP_RIGHT, IMAGE_COILY_RIGHT
-                    break
+        option_array = []
+        if valid_cube_number_and_row(coily_cube + coily_row,
+                                     coily_row + 1) and mod_coily_cube > mod_player_cube:
+            option_array.append(1)
+        if valid_cube_number_and_row(coily_cube + coily_row + 1,
+                                     coily_row + 1) and mod_coily_cube < mod_player_cube:
+            option_array.append(2)
+        if valid_cube_number_and_row(coily_cube - coily_row,
+                                     coily_row - 1) and mod_coily_cube > mod_player_cube:
+            option_array.append(3)
+        if valid_cube_number_and_row(coily_cube - coily_row - 1,
+                                     coily_row - 1) and mod_coily_cube < mod_player_cube:
+            option_array.append(4)
+
+        random_number = random.randint(0, len(option_array) - 1)
+        if option_array[random_number] == 1:
+            return_value_2 = DOWN_LEFT, IMAGE_COILY_LEFT
+        elif option_array[random_number] == 2:
+            return_value_2 = DOWN_RIGHT, IMAGE_COILY_RIGHT
+        elif option_array[random_number] == 3:
+            return_value_2 = UP_LEFT, IMAGE_COILY_LEFT
+        else:
+            return_value_2 = UP_RIGHT, IMAGE_COILY_RIGHT
 
     if randomized_1 and not randomized_2:
         return return_value_2
@@ -183,16 +183,13 @@ def direction(coily_cube, coily_row, player_cube, player_row):
 
 class Coily(Enemy):
     def __init__(self, image, window, time):
-        super().__init__(image, window)
+        super().__init__(image, window, time)
         rand_cube = random.randint(1, 2)
         self.x = variables.cubes[rand_cube].x
         self.y = variables.cubes[rand_cube].y - CUBE_SIZE * 4
         self.cubeNumber = rand_cube
         self.rowNumber = 2
-        self.jumpDirection = FALLING
         self.version = EGG
-        self.destroy = False
-        self.time = time
 
     def draw_egg(self):
         if self.jumpCount == 0:
@@ -206,7 +203,7 @@ class Coily(Enemy):
             self.y = variables.cubes[self.cubeNumber].y
             self.jumpCount = JUMP_DURATION
 
-        elif self.jumpCount > 0:
+        else:
             if self.jumpDirection == DOWN_LEFT:
                 self.x -= CUBE_SIZE // (2 * JUMP_DURATION - 1)
                 if self.jumpCount > JUMP_DURATION * 2 // 3:
@@ -230,7 +227,7 @@ class Coily(Enemy):
                     self.rowNumber += 1
 
             elif self.jumpDirection == FALLING:
-                self.y += (CUBE_SIZE * 4) // JUMP_DURATION
+                self.y += (CUBE_SIZE * 2) // JUMP_DURATION
                 self.jumpCount -= 1
 
             if self.jumpCount == 0 and self.rowNumber == 7:
@@ -330,10 +327,11 @@ class Coily(Enemy):
                     self.image = IMAGE_COILY_RIGHT_JUMP
                 self.jumpDirection = STANDING
                 self.jumpCount = JUMP_DURATION // 2
-                self.x = variables.cubes[self.cubeNumber].x
-                self.y = variables.cubes[self.cubeNumber].y
                 if not valid_cube_number_and_row_coily(self.cubeNumber, self.rowNumber):
                     self.destroy = True
+                else:
+                    self.x = variables.cubes[self.cubeNumber].x
+                    self.y = variables.cubes[self.cubeNumber].y
 
         self.window.blit(self.image, (self.x + CUBE_SIZE * 1 // 8, self.y - CUBE_SIZE * 3 // 4))
 

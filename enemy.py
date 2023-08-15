@@ -6,15 +6,17 @@ JUMP_DURATION = 24
 
 
 class Enemy:
-    def __init__(self, image, window):
+    def __init__(self, image, window, time):
         self.image = image
         self.window = window
-        self.jumpCount = JUMP_DURATION
-        self.jumpDirection = STANDING
+        self.jumpCount = JUMP_DURATION * 2
         self.x = 0
         self.y = 0
         self.cubeNumber = 0
         self.rowNumber = 0
+        self.destroy = False
+        self.time = time
+        self.jumpDirection = FALLING
 
     def draw(self):
         pass
