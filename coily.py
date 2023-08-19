@@ -192,146 +192,149 @@ class Coily(Enemy):
         self.version = EGG
 
     def draw_egg(self):
-        if self.jumpCount == 0:
-            if not valid_cube_number_and_row(self.cubeNumber + self.rowNumber, self.rowNumber + 1):
-                self.jumpDirection = DOWN_RIGHT
-            elif not valid_cube_number_and_row(self.cubeNumber + self.rowNumber + 1, self.rowNumber + 1):
-                self.jumpDirection = DOWN_LEFT
+        if not variables.freeze:
+            if self.jumpCount == 0:
+                if not valid_cube_number_and_row(self.cubeNumber + self.rowNumber, self.rowNumber + 1):
+                    self.jumpDirection = DOWN_RIGHT
+                elif not valid_cube_number_and_row(self.cubeNumber + self.rowNumber + 1, self.rowNumber + 1):
+                    self.jumpDirection = DOWN_LEFT
+                else:
+                    self.jumpDirection = random.randint(1, 2)
+                self.x = variables.cubes[self.cubeNumber].x
+                self.y = variables.cubes[self.cubeNumber].y
+                self.jumpCount = JUMP_DURATION
+
             else:
-                self.jumpDirection = random.randint(1, 2)
-            self.x = variables.cubes[self.cubeNumber].x
-            self.y = variables.cubes[self.cubeNumber].y
-            self.jumpCount = JUMP_DURATION
+                if self.jumpDirection == DOWN_LEFT:
+                    self.x -= CUBE_SIZE // (2 * JUMP_DURATION - 1)
+                    if self.jumpCount > JUMP_DURATION * 2 // 3:
+                        self.y -= CUBE_SIZE // (JUMP_DURATION * 4 // 3)
+                    else:
+                        self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3 - 1)
+                    self.jumpCount -= 1
+                    if self.jumpCount == 0:
+                        self.cubeNumber = self.cubeNumber + self.rowNumber
+                        self.rowNumber += 1
 
-        else:
-            if self.jumpDirection == DOWN_LEFT:
-                self.x -= CUBE_SIZE // (2 * JUMP_DURATION - 1)
-                if self.jumpCount > JUMP_DURATION * 2 // 3:
-                    self.y -= CUBE_SIZE // (JUMP_DURATION * 4 // 3)
-                else:
-                    self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3 - 1)
-                self.jumpCount -= 1
-                if self.jumpCount == 0:
-                    self.cubeNumber = self.cubeNumber + self.rowNumber
-                    self.rowNumber += 1
+                elif self.jumpDirection == DOWN_RIGHT:
+                    self.x += CUBE_SIZE // (2 * JUMP_DURATION - 1)
+                    if self.jumpCount > JUMP_DURATION * 2 // 3:
+                        self.y -= CUBE_SIZE // (JUMP_DURATION * 4 // 3)
+                    else:
+                        self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3 - 1)
+                    self.jumpCount -= 1
+                    if self.jumpCount == 0:
+                        self.cubeNumber = self.cubeNumber + self.rowNumber + 1
+                        self.rowNumber += 1
 
-            elif self.jumpDirection == DOWN_RIGHT:
-                self.x += CUBE_SIZE // (2 * JUMP_DURATION - 1)
-                if self.jumpCount > JUMP_DURATION * 2 // 3:
-                    self.y -= CUBE_SIZE // (JUMP_DURATION * 4 // 3)
-                else:
-                    self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3 - 1)
-                self.jumpCount -= 1
-                if self.jumpCount == 0:
-                    self.cubeNumber = self.cubeNumber + self.rowNumber + 1
-                    self.rowNumber += 1
+                elif self.jumpDirection == FALLING:
+                    self.y += (CUBE_SIZE * 2) // JUMP_DURATION
+                    self.jumpCount -= 1
 
-            elif self.jumpDirection == FALLING:
-                self.y += (CUBE_SIZE * 2) // JUMP_DURATION
-                self.jumpCount -= 1
-
-            if self.jumpCount == 0 and self.rowNumber == 7:
-                self.version = HATCHING
-                self.jumpCount = JUMP_DURATION * 2
-                self.jumpDirection = UP_LEFT
+                if self.jumpCount == 0 and self.rowNumber == 7:
+                    self.version = HATCHING
+                    self.jumpCount = JUMP_DURATION * 2
+                    self.jumpDirection = UP_LEFT
         self.window.blit(self.image, (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4))
 
     def draw_hatch(self):
-        if self.jumpCount == 0:
-            self.version = SNAKE
-            self.image = IMAGE_COILY_LEFT
-            self.jumpDirection = STANDING
-            self.jumpCount = JUMP_DURATION // 2
-        else:
-            self.jumpCount -= 1
-            if self.jumpCount % 3 == 0:
-                if self.jumpDirection == UP_LEFT:
-                    self.jumpDirection = UP_RIGHT
-                elif self.jumpDirection == UP_RIGHT:
-                    self.jumpDirection = DOWN_RIGHT
-                elif self.jumpDirection == DOWN_RIGHT:
-                    self.jumpDirection = DOWN_LEFT
-                elif self.jumpDirection == DOWN_LEFT:
-                    self.jumpDirection = UP_LEFT
-
-            if self.jumpDirection == UP_LEFT:
-                self.window.blit(self.image,
-                                 (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4 - JUMP_DURATION // 4))
-            elif self.jumpDirection == UP_RIGHT:
-                self.window.blit(self.image,
-                                 (self.x + CUBE_SIZE * 3 // 8 + JUMP_DURATION // 4, self.y - CUBE_SIZE * 1 // 4))
-            elif self.jumpDirection == DOWN_RIGHT:
-                self.window.blit(self.image,
-                                 (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4 + JUMP_DURATION // 4))
-            elif self.jumpDirection == DOWN_LEFT:
-                self.window.blit(self.image,
-                                 (self.x + CUBE_SIZE * 3 // 8 - JUMP_DURATION // 4, self.y - CUBE_SIZE * 1 // 4))
-
-    def draw_snake(self):
-        if self.jumpDirection == STANDING:
-            self.jumpCount -= 1
+        if not variables.freeze:
             if self.jumpCount == 0:
-                self.jumpDirection, self.image = direction(self.cubeNumber, self.rowNumber, variables.player.cubeNumber,
-                                                           variables.player.rowNumber)
-                self.jumpCount = JUMP_DURATION // 2
-
-        else:
-            if self.jumpDirection == DOWN_LEFT:
-                self.x -= CUBE_SIZE // (JUMP_DURATION - 1)
-                if self.jumpCount > (JUMP_DURATION // 3):
-                    self.y -= CUBE_SIZE // (JUMP_DURATION * 2 // 3)
-                else:
-                    self.y += CUBE_SIZE // (JUMP_DURATION // 3 - 1)
-                self.jumpCount -= 1
-                if self.jumpCount == 0:
-                    self.cubeNumber = self.cubeNumber + self.rowNumber
-                    self.rowNumber += 1
-
-            elif self.jumpDirection == DOWN_RIGHT:
-                self.x += CUBE_SIZE // (JUMP_DURATION - 1)
-                if self.jumpCount > (JUMP_DURATION // 3):
-                    self.y -= CUBE_SIZE // (JUMP_DURATION * 2 // 3)
-                else:
-                    self.y += CUBE_SIZE // (JUMP_DURATION // 3 - 1)
-                self.jumpCount -= 1
-                if self.jumpCount == 0:
-                    self.cubeNumber = self.cubeNumber + self.rowNumber + 1
-                    self.rowNumber += 1
-
-            elif self.jumpDirection == UP_RIGHT:
-                self.x += CUBE_SIZE // (JUMP_DURATION - 1)
-                if self.jumpCount < JUMP_DURATION // 4:
-                    self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3)
-                else:
-                    self.y -= CUBE_SIZE // (JUMP_DURATION // 3 - 1)
-                self.jumpCount -= 1
-                if self.jumpCount == 0:
-                    self.cubeNumber = self.cubeNumber - self.rowNumber + 1
-                    self.rowNumber -= 1
-
-            elif self.jumpDirection == UP_LEFT:
-                self.x -= CUBE_SIZE // (JUMP_DURATION - 1)
-                if self.jumpCount < JUMP_DURATION // 4:
-                    self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3)
-                else:
-                    self.y -= CUBE_SIZE // (JUMP_DURATION // 3 - 1)
-                self.jumpCount -= 1
-                if self.jumpCount == 0:
-                    self.cubeNumber = self.cubeNumber - self.rowNumber
-                    self.rowNumber -= 1
-
-            if self.jumpCount == 0:
-                if self.jumpDirection == DOWN_LEFT or self.jumpDirection == UP_LEFT:
-                    self.image = IMAGE_COILY_LEFT_JUMP
-                else:
-                    self.image = IMAGE_COILY_RIGHT_JUMP
+                self.version = SNAKE
+                self.image = IMAGE_COILY_LEFT
                 self.jumpDirection = STANDING
                 self.jumpCount = JUMP_DURATION // 2
-                if not valid_cube_number_and_row_coily(self.cubeNumber, self.rowNumber):
-                    self.destroy = True
-                else:
-                    self.x = variables.cubes[self.cubeNumber].x
-                    self.y = variables.cubes[self.cubeNumber].y
+            else:
+                self.jumpCount -= 1
+                if self.jumpCount % 3 == 0:
+                    if self.jumpDirection == UP_LEFT:
+                        self.jumpDirection = UP_RIGHT
+                    elif self.jumpDirection == UP_RIGHT:
+                        self.jumpDirection = DOWN_RIGHT
+                    elif self.jumpDirection == DOWN_RIGHT:
+                        self.jumpDirection = DOWN_LEFT
+                    elif self.jumpDirection == DOWN_LEFT:
+                        self.jumpDirection = UP_LEFT
+
+        if self.jumpDirection == UP_LEFT:
+            self.window.blit(self.image,
+                             (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4 - JUMP_DURATION // 4))
+        elif self.jumpDirection == UP_RIGHT:
+            self.window.blit(self.image,
+                             (self.x + CUBE_SIZE * 3 // 8 + JUMP_DURATION // 4, self.y - CUBE_SIZE * 1 // 4))
+        elif self.jumpDirection == DOWN_RIGHT:
+            self.window.blit(self.image,
+                             (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4 + JUMP_DURATION // 4))
+        elif self.jumpDirection == DOWN_LEFT:
+            self.window.blit(self.image,
+                             (self.x + CUBE_SIZE * 3 // 8 - JUMP_DURATION // 4, self.y - CUBE_SIZE * 1 // 4))
+
+    def draw_snake(self):
+        if not variables.freeze:
+            if self.jumpDirection == STANDING:
+                self.jumpCount -= 1
+                if self.jumpCount == 0:
+                    self.jumpDirection, self.image = direction(self.cubeNumber, self.rowNumber, variables.player.cubeNumber,
+                                                               variables.player.rowNumber)
+                    self.jumpCount = JUMP_DURATION // 2
+
+            else:
+                if self.jumpDirection == DOWN_LEFT:
+                    self.x -= CUBE_SIZE // (JUMP_DURATION - 1)
+                    if self.jumpCount > (JUMP_DURATION // 3):
+                        self.y -= CUBE_SIZE // (JUMP_DURATION * 2 // 3)
+                    else:
+                        self.y += CUBE_SIZE // (JUMP_DURATION // 3 - 1)
+                    self.jumpCount -= 1
+                    if self.jumpCount == 0:
+                        self.cubeNumber = self.cubeNumber + self.rowNumber
+                        self.rowNumber += 1
+
+                elif self.jumpDirection == DOWN_RIGHT:
+                    self.x += CUBE_SIZE // (JUMP_DURATION - 1)
+                    if self.jumpCount > (JUMP_DURATION // 3):
+                        self.y -= CUBE_SIZE // (JUMP_DURATION * 2 // 3)
+                    else:
+                        self.y += CUBE_SIZE // (JUMP_DURATION // 3 - 1)
+                    self.jumpCount -= 1
+                    if self.jumpCount == 0:
+                        self.cubeNumber = self.cubeNumber + self.rowNumber + 1
+                        self.rowNumber += 1
+
+                elif self.jumpDirection == UP_RIGHT:
+                    self.x += CUBE_SIZE // (JUMP_DURATION - 1)
+                    if self.jumpCount < JUMP_DURATION // 4:
+                        self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3)
+                    else:
+                        self.y -= CUBE_SIZE // (JUMP_DURATION // 3 - 1)
+                    self.jumpCount -= 1
+                    if self.jumpCount == 0:
+                        self.cubeNumber = self.cubeNumber - self.rowNumber + 1
+                        self.rowNumber -= 1
+
+                elif self.jumpDirection == UP_LEFT:
+                    self.x -= CUBE_SIZE // (JUMP_DURATION - 1)
+                    if self.jumpCount < JUMP_DURATION // 4:
+                        self.y += CUBE_SIZE // (JUMP_DURATION * 2 // 3)
+                    else:
+                        self.y -= CUBE_SIZE // (JUMP_DURATION // 3 - 1)
+                    self.jumpCount -= 1
+                    if self.jumpCount == 0:
+                        self.cubeNumber = self.cubeNumber - self.rowNumber
+                        self.rowNumber -= 1
+
+                if self.jumpCount == 0:
+                    if self.jumpDirection == DOWN_LEFT or self.jumpDirection == UP_LEFT:
+                        self.image = IMAGE_COILY_LEFT_JUMP
+                    else:
+                        self.image = IMAGE_COILY_RIGHT_JUMP
+                    self.jumpDirection = STANDING
+                    self.jumpCount = JUMP_DURATION // 2
+                    if not valid_cube_number_and_row_coily(self.cubeNumber, self.rowNumber):
+                        self.destroy = True
+                    else:
+                        self.x = variables.cubes[self.cubeNumber].x
+                        self.y = variables.cubes[self.cubeNumber].y
 
         self.window.blit(self.image, (self.x + CUBE_SIZE * 1 // 8, self.y - CUBE_SIZE * 3 // 4))
 
