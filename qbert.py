@@ -1,3 +1,4 @@
+import variables
 from draw import draw
 from initialize_game import *
 from valid_cube_number_and_row import valid_cube_number_and_row
@@ -30,6 +31,7 @@ while running:
 
     if variables.state == START:
         if pygame.mouse.get_pressed()[0]:
+            SOUND_GAMESTART.play()
             variables.state = ONE_SECOND_PAUSE
             initialize_game(game_window)
             counter = 0
@@ -48,24 +50,29 @@ while running:
                 variables.jump_direction_player = DOWN_LEFT
 
         if variables.round_completed:
-            (variables.player.x, variables.player.y, variables.player.image,
-             variables.player.cubeNumber, variables.player.rowNumber,
-             variables.player.leftPlatform, variables.player.rightPlatform) = (
-                X_CENTER - CUBE_SIZE * 3 // 8,
-                Y_CENTER - CUBE_SIZE * 3 // 8,
-                IMAGE_PLAYER_LEFT_DOWN, 0, 1, True, True)
-            variables.enemies = []
             variables.state = ONE_SECOND_PAUSE
+            variables.rainbow_color = 0
+            variables.game_time = 0
 
         if nextEnemyTime == variables.game_time:
-            variables.enemies.append(variables.level.generate_enemy(game_window))
+            enemy = variables.level.generate_enemy(game_window)
+            if enemy is not None:
+                variables.enemies.append(enemy)
             nextEnemyTime = variables.level.next_enemy_appearance()
 
-        for enemy in variables.enemies:
-            if enemy.detect_collision(variables.player):
-                variables.player.lives -= 1
-                variables.state = ONE_SECOND_PAUSE
-                break
+        if not variables.freeze:
+            for enemy in variables.enemies:
+                if enemy.detect_collision(variables.player):
+                    variables.player.lives -= 1
+                    variables.state = ONE_SECOND_PAUSE
+                    break
+        else:
+            nextEnemyTime = -1
+            variables.freeze_timer += 1
+            if variables.freeze_timer * variables.speed >= 1500:
+                variables.freeze = False
+                variables.freeze_timer = 0
+                nextEnemyTime = variables.level.next_enemy_appearance()
 
         if not valid_cube_number_and_row(variables.player.cubeNumber, variables.player.rowNumber):
             variables.state = ONE_SECOND_PAUSE
@@ -101,8 +108,10 @@ while running:
             variables.state = PLAYING
             variables.enemies = []
             counter = 0
+            variables.celebrate = False
             if variables.round_completed:
                 variables.level.init_next_level()
+            variables.game_time = 0
             nextEnemyTime = variables.level.next_enemy_appearance()
 
     elif variables.state == GAME_OVER:

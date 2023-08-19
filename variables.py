@@ -10,7 +10,11 @@ from player import Player
 jump_direction_player = STANDING
 state = START
 score = 0
-speed = 25
+speed = 35
+freeze = False
+freeze_timer = 0
+rainbow_color = 0
+celebrate = False
 
 helpx, helpy = 0, 0
 
