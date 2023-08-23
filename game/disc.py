@@ -13,7 +13,7 @@ class Disc:
             if disc.side == LEFT:
                 side += 1
             else:
-                side -= 1
+                side -= 1   
             used_spaces[(disc.row, disc.side)] = 1
 
         random_number = random.randint(1, 2)

@@ -1,7 +1,6 @@
-import player
 import variables
 from constants import *
-from cube import Cube, make_color_grayer
+from cube import make_color_grayer
 
 
 def draw_requested(font, game_window):
@@ -16,7 +15,7 @@ def draw_requested(font, game_window):
                 (x + CUBE_SIZE, y),
                 (x + CUBE_SIZE // 2, y - CUBE_SIZE // 4)]
 
-    pygame.draw.polygon(game_window, variables.level.colors[len(variables.level.colors)-1], vertices)
+    pygame.draw.polygon(game_window, variables.level.colors[len(variables.level.colors) - 1], vertices)
     pygame.draw.lines(game_window, COLOR_GRAY, points=vertices, closed=True)
 
     vertices = [(x, y), (x + CUBE_SIZE // 2, y + CUBE_SIZE // 4),
@@ -70,9 +69,9 @@ def draw(game_window, font):
         game_window.blit(text, text_rect)
     elif variables.state == ONE_SECOND_PAUSE:
         if variables.celebrate:
-            variables.rainbow_color = variables.rainbow_color % (len(RAINBOW)*5)
+            variables.rainbow_color = variables.rainbow_color % (len(RAINBOW) * 5)
             for cube in variables.cubes:
-                cube.color = RAINBOW[variables.rainbow_color//5]
+                cube.color = RAINBOW[variables.rainbow_color // 5]
                 cube.draw()
             variables.player.draw()
             variables.rainbow_color += 1

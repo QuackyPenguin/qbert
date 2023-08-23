@@ -1,4 +1,3 @@
-import variables
 from draw import draw
 from initialize_game import *
 from valid_cube_number_and_row import valid_cube_number_and_row

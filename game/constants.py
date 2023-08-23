@@ -57,40 +57,40 @@ GREEN_BALL = 7
 
 FONT_SIZE = 36
 
-PATH_IMAGE_START_PAGE = 'images/startpage.png'
+PATH_IMAGE_START_PAGE = '../images/startpage.png'
 
-PATH_IMAGE_PLAYER_LEFT_DOWN = 'images/playerleftdown.png'
-PATH_IMAGE_PLAYER_RIGHT_DOWN = 'images/playerrightdown.png'
-PATH_IMAGE_PLAYER_LEFT_UP = 'images/playerleftup.png'
-PATH_IMAGE_PLAYER_RIGHT_UP = 'images/playerrightup.png'
-PATH_IMAGE_PLAYER_LITTLE = 'images/playerlittle.png'
-PATH_IMAGE_PLAYER_LEFT_DOWN_JUMP = 'images/playerleftdownjump.png'
-PATH_IMAGE_PLAYER_RIGHT_DOWN_JUMP = 'images/playerrightdownjump.png'
-PATH_IMAGE_PLAYER_LEFT_UP_JUMP = 'images/playerleftupjump.png'
-PATH_IMAGE_PLAYER_RIGHT_UP_JUMP = 'images/playerrightupjump.png'
-PATH_IMAGE_PLAYER_SPIN_1 = 'images/spin1.png'
-PATH_IMAGE_PLAYER_SPIN_2 = 'images/spin2.png'
+PATH_IMAGE_PLAYER_LEFT_DOWN = '../images/playerleftdown.png'
+PATH_IMAGE_PLAYER_RIGHT_DOWN = '../images/playerrightdown.png'
+PATH_IMAGE_PLAYER_LEFT_UP = '../images/playerleftup.png'
+PATH_IMAGE_PLAYER_RIGHT_UP = '../images/playerrightup.png'
+PATH_IMAGE_PLAYER_LITTLE = '../images/playerlittle.png'
+PATH_IMAGE_PLAYER_LEFT_DOWN_JUMP = '../images/playerleftdownjump.png'
+PATH_IMAGE_PLAYER_RIGHT_DOWN_JUMP = '../images/playerrightdownjump.png'
+PATH_IMAGE_PLAYER_LEFT_UP_JUMP = '../images/playerleftupjump.png'
+PATH_IMAGE_PLAYER_RIGHT_UP_JUMP = '../images/playerrightupjump.png'
+PATH_IMAGE_PLAYER_SPIN_1 = '../images/spin1.png'
+PATH_IMAGE_PLAYER_SPIN_2 = '../images/spin2.png'
 
-PATH_IMAGE_QBERT_LOSES = 'images/qbertloses.png'
+PATH_IMAGE_QBERT_LOSES = '../images/qbertloses.png'
 
-PATH_IMAGE_RED_BALL = 'images/redEnemyBall.png'
-PATH_IMAGE_GREEN_BALL = 'images/greenEnemyBall.png'
-PATH_IMAGE_PURPLE_BALL = 'images/purpleEnemyBall.png'
-PATH_IMAGE_COILY_LEFT = 'images/coilyleft.png'
-PATH_IMAGE_COILY_RIGHT = 'images/coilyright.png'
-PATH_IMAGE_COILY_LEFT_JUMP = 'images/coilyleftjump.png'
-PATH_IMAGE_COILY_RIGHT_JUMP = 'images/coilyrightjump.png'
-PATH_IMAGE_WRONGWAY_LEFT = 'images/wrongwayleft.png'
-PATH_IMAGE_WRONGWAY_RIGHT = 'images/wrongwayright.png'
-PATH_IMAGE_UGG_LEFT = 'images/uggleft.png'
-PATH_IMAGE_UGG_RIGHT = 'images/uggright.png'
-PATH_IMAGE_SAM_LEFT = 'images/samleft.png'
-PATH_IMAGE_SAM_RIGHT = 'images/samright.png'
-PATH_IMAGE_SLICK_LEFT = 'images/slickleft.png'
-PATH_IMAGE_SLICK_RIGHT = 'images/slickright.png'
+PATH_IMAGE_RED_BALL = '../images/redEnemyBall.png'
+PATH_IMAGE_GREEN_BALL = '../images/greenEnemyBall.png'
+PATH_IMAGE_PURPLE_BALL = '../images/purpleEnemyBall.png'
+PATH_IMAGE_COILY_LEFT = '../images/coilyleft.png'
+PATH_IMAGE_COILY_RIGHT = '../images/coilyright.png'
+PATH_IMAGE_COILY_LEFT_JUMP = '../images/coilyleftjump.png'
+PATH_IMAGE_COILY_RIGHT_JUMP = '../images/coilyrightjump.png'
+PATH_IMAGE_WRONGWAY_LEFT = '../images/wrongwayleft.png'
+PATH_IMAGE_WRONGWAY_RIGHT = '../images/wrongwayright.png'
+PATH_IMAGE_UGG_LEFT = '../images/uggleft.png'
+PATH_IMAGE_UGG_RIGHT = '../images/uggright.png'
+PATH_IMAGE_SAM_LEFT = '../images/samleft.png'
+PATH_IMAGE_SAM_RIGHT = '../images/samright.png'
+PATH_IMAGE_SLICK_LEFT = '../images/slickleft.png'
+PATH_IMAGE_SLICK_RIGHT = '../images/slickright.png'
 
-PATH_IMAGE_DISK = 'images/disk.png'
-PATH_IMAGE_SWEAR = 'images/swear.png'
+PATH_IMAGE_DISK = '../images/disk.png'
+PATH_IMAGE_SWEAR = '../images/swear.png'
 
 IMAGE_START_PAGE = pygame.image.load(PATH_IMAGE_START_PAGE)
 
@@ -128,7 +128,7 @@ IMAGE_SLICK_RIGHT = pygame.image.load(PATH_IMAGE_SLICK_RIGHT)
 IMAGE_DISK = pygame.image.load(PATH_IMAGE_DISK)
 IMAGE_SWEAR = pygame.image.load(PATH_IMAGE_SWEAR)
 
-PATH_SOUND_GAMESTART = 'sounds/gamestart.wav'
+PATH_SOUND_GAMESTART = '../sounds/gamestart.wav'
 
 SOUND_GAMESTART = pygame.mixer.Sound(PATH_SOUND_GAMESTART)
 

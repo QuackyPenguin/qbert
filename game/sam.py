@@ -4,7 +4,7 @@ import variables
 from player import Player
 from constants import *
 from enemy import Enemy, JUMP_DURATION
-from valid_cube_number_and_row import valid_cube_number_and_row, valid_cube_number_and_row_coily
+from valid_cube_number_and_row import valid_cube_number_and_row_coily
 
 
 class Sam(Enemy):
