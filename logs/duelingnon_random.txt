@@ -1,0 +1,1984 @@
+Game 9375 | Score 550 | Record: 11250 | Steps: 128
+Frames: 1000226
+Game 9376 | Score 625 | Record: 11250 | Steps: 109
+Frames: 1000335
+Game 9377 | Score 2675 | Record: 11250 | Steps: 263
+Frames: 1000598
+Game 9378 | Score 625 | Record: 11250 | Steps: 164
+Frames: 1000762
+Game 9379 | Score 275 | Record: 11250 | Steps: 123
+Frames: 1000885
+Game 9380 | Score 2025 | Record: 11250 | Steps: 87
+Frames: 1000972
+Game 9381 | Score 425 | Record: 11250 | Steps: 134
+Frames: 1001106
+Game 9382 | Score 5325 | Record: 11250 | Steps: 194
+Frames: 1001300
+Game 9383 | Score 600 | Record: 11250 | Steps: 169
+Frames: 1001469
+Game 9384 | Score 2475 | Record: 11250 | Steps: 153
+Frames: 1001622
+Game 9385 | Score 675 | Record: 11250 | Steps: 249
+Frames: 1001871
+Game 9386 | Score 525 | Record: 11250 | Steps: 192
+Frames: 1002063
+Game 9387 | Score 3075 | Record: 11250 | Steps: 164
+Frames: 1002227
+Game 9388 | Score 650 | Record: 11250 | Steps: 178
+Frames: 1002405
+Game 9389 | Score 675 | Record: 11250 | Steps: 116
+Frames: 1002521
+Game 9390 | Score 2100 | Record: 11250 | Steps: 83
+Frames: 1002604
+Game 9391 | Score 425 | Record: 11250 | Steps: 161
+Frames: 1002765
+Game 9392 | Score 675 | Record: 11250 | Steps: 133
+Frames: 1002898
+Game 9393 | Score 600 | Record: 11250 | Steps: 128
+Frames: 1003026
+Game 9394 | Score 600 | Record: 11250 | Steps: 124
+Frames: 1003150
+Game 9395 | Score 475 | Record: 11250 | Steps: 134
+Frames: 1003284
+Game 9396 | Score 600 | Record: 11250 | Steps: 104
+Frames: 1003388
+Game 9397 | Score 650 | Record: 11250 | Steps: 148
+Frames: 1003536
+Game 9398 | Score 275 | Record: 11250 | Steps: 130
+Frames: 1003666
+Game 9399 | Score 600 | Record: 11250 | Steps: 204
+Frames: 1003870
+Game 9400 | Score 4750 | Record: 11250 | Steps: 178
+Frames: 1004048
+Game 9401 | Score 1175 | Record: 11250 | Steps: 187
+Frames: 1004235
+Game 9402 | Score 625 | Record: 11250 | Steps: 122
+Frames: 1004357
+Game 9403 | Score 600 | Record: 11250 | Steps: 141
+Frames: 1004498
+Game 9404 | Score 675 | Record: 11250 | Steps: 128
+Frames: 1004626
+Game 9405 | Score 525 | Record: 11250 | Steps: 172
+Frames: 1004798
+Game 9406 | Score 675 | Record: 11250 | Steps: 87
+Frames: 1004885
+Game 9407 | Score 475 | Record: 11250 | Steps: 116
+Frames: 1005001
+Game 9408 | Score 575 | Record: 11250 | Steps: 194
+Frames: 1005195
+Game 9409 | Score 675 | Record: 11250 | Steps: 114
+Frames: 1005309
+Game 9410 | Score 675 | Record: 11250 | Steps: 100
+Frames: 1005409
+Game 9411 | Score 600 | Record: 11250 | Steps: 137
+Frames: 1005546
+Game 9412 | Score 2550 | Record: 11250 | Steps: 180
+Frames: 1005726
+Game 9413 | Score 675 | Record: 11250 | Steps: 99
+Frames: 1005825
+Game 9414 | Score 650 | Record: 11250 | Steps: 93
+Frames: 1005918
+Game 9415 | Score 650 | Record: 11250 | Steps: 156
+Frames: 1006074
+Game 9416 | Score 650 | Record: 11250 | Steps: 314
+Frames: 1006388
+Game 9417 | Score 625 | Record: 11250 | Steps: 268
+Frames: 1006656
+Game 9418 | Score 675 | Record: 11250 | Steps: 168
+Frames: 1006824
+Game 9419 | Score 2475 | Record: 11250 | Steps: 154
+Frames: 1006978
+Game 9420 | Score 675 | Record: 11250 | Steps: 118
+Frames: 1007096
+Game 9421 | Score 675 | Record: 11250 | Steps: 111
+Frames: 1007207
+Game 9422 | Score 2200 | Record: 11250 | Steps: 99
+Frames: 1007306
+Game 9423 | Score 575 | Record: 11250 | Steps: 271
+Frames: 1007577
+Game 9424 | Score 425 | Record: 11250 | Steps: 104
+Frames: 1007681
+Game 9425 | Score 500 | Record: 11250 | Steps: 139
+Frames: 1007820
+Game 9426 | Score 675 | Record: 11250 | Steps: 167
+Frames: 1007987
+Game 9427 | Score 525 | Record: 11250 | Steps: 191
+Frames: 1008178
+Game 9428 | Score 475 | Record: 11250 | Steps: 106
+Frames: 1008284
+Game 9429 | Score 525 | Record: 11250 | Steps: 99
+Frames: 1008383
+Game 9430 | Score 675 | Record: 11250 | Steps: 144
+Frames: 1008527
+Game 9431 | Score 575 | Record: 11250 | Steps: 142
+Frames: 1008669
+Game 9432 | Score 675 | Record: 11250 | Steps: 217
+Frames: 1008886
+Game 9433 | Score 575 | Record: 11250 | Steps: 181
+Frames: 1009067
+Game 9434 | Score 625 | Record: 11250 | Steps: 204
+Frames: 1009271
+Game 9435 | Score 675 | Record: 11250 | Steps: 145
+Frames: 1009416
+Game 9436 | Score 450 | Record: 11250 | Steps: 182
+Frames: 1009598
+Game 9437 | Score 600 | Record: 11250 | Steps: 218
+Frames: 1009816
+Game 9438 | Score 2825 | Record: 11250 | Steps: 185
+Frames: 1010001
+Game 9439 | Score 2575 | Record: 11250 | Steps: 243
+Frames: 1010244
+Game 9440 | Score 675 | Record: 11250 | Steps: 201
+Frames: 1010445
+Game 9441 | Score 4675 | Record: 11250 | Steps: 184
+Frames: 1010629
+Game 9442 | Score 675 | Record: 11250 | Steps: 88
+Frames: 1010717
+Game 9443 | Score 2425 | Record: 11250 | Steps: 161
+Frames: 1010878
+Game 9444 | Score 675 | Record: 11250 | Steps: 167
+Frames: 1011045
+Game 9445 | Score 600 | Record: 11250 | Steps: 147
+Frames: 1011192
+Game 9446 | Score 650 | Record: 11250 | Steps: 98
+Frames: 1011290
+Game 9447 | Score 600 | Record: 11250 | Steps: 165
+Frames: 1011455
+Game 9448 | Score 525 | Record: 11250 | Steps: 237
+Frames: 1011692
+Game 9449 | Score 525 | Record: 11250 | Steps: 173
+Frames: 1011865
+Game 9450 | Score 425 | Record: 11250 | Steps: 115
+Frames: 1011980
+Game 9451 | Score 625 | Record: 11250 | Steps: 202
+Frames: 1012182
+Game 9452 | Score 675 | Record: 11250 | Steps: 159
+Frames: 1012341
+Game 9453 | Score 2375 | Record: 11250 | Steps: 175
+Frames: 1012516
+Game 9454 | Score 675 | Record: 11250 | Steps: 75
+Frames: 1012591
+Game 9455 | Score 675 | Record: 11250 | Steps: 115
+Frames: 1012706
+Game 9456 | Score 675 | Record: 11250 | Steps: 155
+Frames: 1012861
+Game 9457 | Score 650 | Record: 11250 | Steps: 181
+Frames: 1013042
+Game 9458 | Score 525 | Record: 11250 | Steps: 112
+Frames: 1013154
+Game 9459 | Score 600 | Record: 11250 | Steps: 123
+Frames: 1013277
+Game 9460 | Score 475 | Record: 11250 | Steps: 242
+Frames: 1013519
+Game 9461 | Score 1175 | Record: 11250 | Steps: 153
+Frames: 1013672
+Game 9462 | Score 475 | Record: 11250 | Steps: 173
+Frames: 1013845
+Game 9463 | Score 2150 | Record: 11250 | Steps: 98
+Frames: 1013943
+Game 9464 | Score 2450 | Record: 11250 | Steps: 179
+Frames: 1014122
+Game 9465 | Score 675 | Record: 11250 | Steps: 199
+Frames: 1014321
+Game 9466 | Score 675 | Record: 11250 | Steps: 295
+Frames: 1014616
+Game 9467 | Score 2350 | Record: 11250 | Steps: 139
+Frames: 1014755
+Game 9468 | Score 575 | Record: 11250 | Steps: 116
+Frames: 1014871
+Game 9469 | Score 675 | Record: 11250 | Steps: 121
+Frames: 1014992
+Game 9470 | Score 675 | Record: 11250 | Steps: 99
+Frames: 1015091
+Game 9471 | Score 550 | Record: 11250 | Steps: 111
+Frames: 1015202
+Game 9472 | Score 650 | Record: 11250 | Steps: 200
+Frames: 1015402
+Game 9473 | Score 4925 | Record: 11250 | Steps: 247
+Frames: 1015649
+Game 9474 | Score 2575 | Record: 11250 | Steps: 208
+Frames: 1015857
+Game 9475 | Score 600 | Record: 11250 | Steps: 109
+Frames: 1015966
+Game 9476 | Score 675 | Record: 11250 | Steps: 136
+Frames: 1016102
+Game 9477 | Score 550 | Record: 11250 | Steps: 136
+Frames: 1016238
+Game 9478 | Score 625 | Record: 11250 | Steps: 135
+Frames: 1016373
+Game 9479 | Score 675 | Record: 11250 | Steps: 184
+Frames: 1016557
+Game 9480 | Score 2575 | Record: 11250 | Steps: 188
+Frames: 1016745
+Game 9481 | Score 650 | Record: 11250 | Steps: 181
+Frames: 1016926
+Game 9482 | Score 675 | Record: 11250 | Steps: 124
+Frames: 1017050
+Game 9483 | Score 525 | Record: 11250 | Steps: 179
+Frames: 1017229
+Game 9484 | Score 675 | Record: 11250 | Steps: 94
+Frames: 1017323
+Game 9485 | Score 575 | Record: 11250 | Steps: 134
+Frames: 1017457
+Game 9486 | Score 675 | Record: 11250 | Steps: 114
+Frames: 1017571
+Game 9487 | Score 675 | Record: 11250 | Steps: 127
+Frames: 1017698
+Game 9488 | Score 475 | Record: 11250 | Steps: 158
+Frames: 1017856
+Game 9489 | Score 425 | Record: 11250 | Steps: 127
+Frames: 1017983
+Game 9490 | Score 1175 | Record: 11250 | Steps: 158
+Frames: 1018141
+Game 9491 | Score 675 | Record: 11250 | Steps: 109
+Frames: 1018250
+Game 9492 | Score 2125 | Record: 11250 | Steps: 115
+Frames: 1018365
+Game 9493 | Score 425 | Record: 11250 | Steps: 130
+Frames: 1018495
+Game 9494 | Score 550 | Record: 11250 | Steps: 199
+Frames: 1018694
+Game 9495 | Score 2475 | Record: 11250 | Steps: 165
+Frames: 1018859
+Game 9496 | Score 550 | Record: 11250 | Steps: 178
+Frames: 1019037
+Game 9497 | Score 675 | Record: 11250 | Steps: 179
+Frames: 1019216
+Game 9498 | Score 675 | Record: 11250 | Steps: 75
+Frames: 1019291
+Game 9499 | Score 675 | Record: 11250 | Steps: 88
+Frames: 1019379
+Game 9500 | Score 650 | Record: 11250 | Steps: 245
+Frames: 1019624
+Game 9501 | Score 675 | Record: 11250 | Steps: 178
+Frames: 1019802
+Game 9502 | Score 650 | Record: 11250 | Steps: 139
+Frames: 1019941
+Game 9503 | Score 675 | Record: 11250 | Steps: 127
+Frames: 1020068
+Game 9504 | Score 6100 | Record: 11250 | Steps: 286
+Frames: 1020354
+Game 9505 | Score 675 | Record: 11250 | Steps: 147
+Frames: 1020501
+Game 9506 | Score 2225 | Record: 11250 | Steps: 131
+Frames: 1020632
+Game 9507 | Score 5125 | Record: 11250 | Steps: 226
+Frames: 1020858
+Game 9508 | Score 1175 | Record: 11250 | Steps: 143
+Frames: 1021001
+Game 9509 | Score 650 | Record: 11250 | Steps: 142
+Frames: 1021143
+Game 9510 | Score 2900 | Record: 11250 | Steps: 108
+Frames: 1021251
+Game 9511 | Score 675 | Record: 11250 | Steps: 130
+Frames: 1021381
+Game 9512 | Score 5250 | Record: 11250 | Steps: 232
+Frames: 1021613
+Game 9513 | Score 675 | Record: 11250 | Steps: 156
+Frames: 1021769
+Game 9514 | Score 5450 | Record: 11250 | Steps: 214
+Frames: 1021983
+Game 9515 | Score 675 | Record: 11250 | Steps: 154
+Frames: 1022137
+Game 9516 | Score 425 | Record: 11250 | Steps: 188
+Frames: 1022325
+Game 9517 | Score 550 | Record: 11250 | Steps: 186
+Frames: 1022511
+Game 9518 | Score 550 | Record: 11250 | Steps: 110
+Frames: 1022621
+Game 9519 | Score 675 | Record: 11250 | Steps: 155
+Frames: 1022776
+Game 9520 | Score 550 | Record: 11250 | Steps: 132
+Frames: 1022908
+Game 9521 | Score 675 | Record: 11250 | Steps: 115
+Frames: 1023023
+Game 9522 | Score 650 | Record: 11250 | Steps: 155
+Frames: 1023178
+Game 9523 | Score 1175 | Record: 11250 | Steps: 139
+Frames: 1023317
+Game 9524 | Score 1150 | Record: 11250 | Steps: 126
+Frames: 1023443
+Game 9525 | Score 600 | Record: 11250 | Steps: 189
+Frames: 1023632
+Game 9526 | Score 500 | Record: 11250 | Steps: 127
+Frames: 1023759
+Game 9527 | Score 575 | Record: 11250 | Steps: 282
+Frames: 1024041
+Game 9528 | Score 5425 | Record: 11250 | Steps: 218
+Frames: 1024259
+Game 9529 | Score 675 | Record: 11250 | Steps: 99
+Frames: 1024358
+Game 9530 | Score 650 | Record: 11250 | Steps: 267
+Frames: 1024625
+Game 9531 | Score 475 | Record: 11250 | Steps: 149
+Frames: 1024774
+Game 9532 | Score 5475 | Record: 11250 | Steps: 220
+Frames: 1024994
+Game 9533 | Score 650 | Record: 11250 | Steps: 78
+Frames: 1025072
+Game 9534 | Score 600 | Record: 11250 | Steps: 99
+Frames: 1025171
+Game 9535 | Score 2600 | Record: 11250 | Steps: 213
+Frames: 1025384
+Game 9536 | Score 275 | Record: 11250 | Steps: 122
+Frames: 1025506
+Game 9537 | Score 2575 | Record: 11250 | Steps: 185
+Frames: 1025691
+Game 9538 | Score 550 | Record: 11250 | Steps: 209
+Frames: 1025900
+Game 9539 | Score 575 | Record: 11250 | Steps: 119
+Frames: 1026019
+Game 9540 | Score 650 | Record: 11250 | Steps: 165
+Frames: 1026184
+Game 9541 | Score 2875 | Record: 11250 | Steps: 166
+Frames: 1026350
+Game 9542 | Score 675 | Record: 11250 | Steps: 160
+Frames: 1026510
+Game 9543 | Score 675 | Record: 11250 | Steps: 123
+Frames: 1026633
+Game 9544 | Score 675 | Record: 11250 | Steps: 173
+Frames: 1026806
+Game 9545 | Score 2225 | Record: 11250 | Steps: 105
+Frames: 1026911
+Game 9546 | Score 500 | Record: 11250 | Steps: 104
+Frames: 1027015
+Game 9547 | Score 600 | Record: 11250 | Steps: 102
+Frames: 1027117
+Game 9548 | Score 4350 | Record: 11250 | Steps: 173
+Frames: 1027290
+Game 9549 | Score 650 | Record: 11250 | Steps: 95
+Frames: 1027385
+Game 9550 | Score 2525 | Record: 11250 | Steps: 224
+Frames: 1027609
+Game 9551 | Score 2975 | Record: 11250 | Steps: 201
+Frames: 1027810
+Game 9552 | Score 425 | Record: 11250 | Steps: 138
+Frames: 1027948
+Game 9553 | Score 2975 | Record: 11250 | Steps: 170
+Frames: 1028118
+Game 9554 | Score 675 | Record: 11250 | Steps: 74
+Frames: 1028192
+Game 9555 | Score 650 | Record: 11250 | Steps: 135
+Frames: 1028327
+Game 9556 | Score 625 | Record: 11250 | Steps: 113
+Frames: 1028440
+Game 9557 | Score 575 | Record: 11250 | Steps: 133
+Frames: 1028573
+Game 9558 | Score 425 | Record: 11250 | Steps: 143
+Frames: 1028716
+Game 9559 | Score 425 | Record: 11250 | Steps: 209
+Frames: 1028925
+Game 9560 | Score 600 | Record: 11250 | Steps: 187
+Frames: 1029112
+Game 9561 | Score 675 | Record: 11250 | Steps: 104
+Frames: 1029216
+Game 9562 | Score 1000 | Record: 11250 | Steps: 270
+Frames: 1029486
+Game 9563 | Score 675 | Record: 11250 | Steps: 228
+Frames: 1029714
+Game 9564 | Score 475 | Record: 11250 | Steps: 131
+Frames: 1029845
+Game 9565 | Score 2375 | Record: 11250 | Steps: 140
+Frames: 1029985
+Game 9566 | Score 2775 | Record: 11250 | Steps: 198
+Frames: 1030183
+Game 9567 | Score 625 | Record: 11250 | Steps: 162
+Frames: 1030345
+Game 9568 | Score 575 | Record: 11250 | Steps: 200
+Frames: 1030545
+Game 9569 | Score 675 | Record: 11250 | Steps: 111
+Frames: 1030656
+Game 9570 | Score 600 | Record: 11250 | Steps: 96
+Frames: 1030752
+Game 9571 | Score 675 | Record: 11250 | Steps: 128
+Frames: 1030880
+Game 9572 | Score 625 | Record: 11250 | Steps: 239
+Frames: 1031119
+Game 9573 | Score 575 | Record: 11250 | Steps: 167
+Frames: 1031286
+Game 9574 | Score 575 | Record: 11250 | Steps: 124
+Frames: 1031410
+Game 9575 | Score 625 | Record: 11250 | Steps: 196
+Frames: 1031606
+Game 9576 | Score 400 | Record: 11250 | Steps: 70
+Frames: 1031676
+Game 9577 | Score 2075 | Record: 11250 | Steps: 169
+Frames: 1031845
+Game 9578 | Score 500 | Record: 11250 | Steps: 176
+Frames: 1032021
+Game 9579 | Score 575 | Record: 11250 | Steps: 146
+Frames: 1032167
+Game 9580 | Score 675 | Record: 11250 | Steps: 113
+Frames: 1032280
+Game 9581 | Score 475 | Record: 11250 | Steps: 166
+Frames: 1032446
+Game 9582 | Score 525 | Record: 11250 | Steps: 134
+Frames: 1032580
+Game 9583 | Score 2450 | Record: 11250 | Steps: 124
+Frames: 1032704
+Game 9584 | Score 675 | Record: 11250 | Steps: 116
+Frames: 1032820
+Game 9585 | Score 650 | Record: 11250 | Steps: 134
+Frames: 1032954
+Game 9586 | Score 675 | Record: 11250 | Steps: 138
+Frames: 1033092
+Game 9587 | Score 625 | Record: 11250 | Steps: 127
+Frames: 1033219
+Game 9588 | Score 675 | Record: 11250 | Steps: 192
+Frames: 1033411
+Game 9589 | Score 675 | Record: 11250 | Steps: 80
+Frames: 1033491
+Game 9590 | Score 600 | Record: 11250 | Steps: 156
+Frames: 1033647
+Game 9591 | Score 650 | Record: 11250 | Steps: 97
+Frames: 1033744
+Game 9592 | Score 675 | Record: 11250 | Steps: 105
+Frames: 1033849
+Game 9593 | Score 675 | Record: 11250 | Steps: 257
+Frames: 1034106
+Game 9594 | Score 675 | Record: 11250 | Steps: 134
+Frames: 1034240
+Game 9595 | Score 675 | Record: 11250 | Steps: 112
+Frames: 1034352
+Game 9596 | Score 475 | Record: 11250 | Steps: 128
+Frames: 1034480
+Game 9597 | Score 625 | Record: 11250 | Steps: 206
+Frames: 1034686
+Game 9598 | Score 2475 | Record: 11250 | Steps: 148
+Frames: 1034834
+Game 9599 | Score 2875 | Record: 11250 | Steps: 124
+Frames: 1034958
+Game 9600 | Score 2275 | Record: 11250 | Steps: 148
+Frames: 1035106
+Game 9601 | Score 575 | Record: 11250 | Steps: 259
+Frames: 1035365
+Game 9602 | Score 650 | Record: 11250 | Steps: 122
+Frames: 1035487
+Game 9603 | Score 500 | Record: 11250 | Steps: 121
+Frames: 1035608
+Game 9604 | Score 675 | Record: 11250 | Steps: 123
+Frames: 1035731
+Game 9605 | Score 2425 | Record: 11250 | Steps: 135
+Frames: 1035866
+Game 9606 | Score 675 | Record: 11250 | Steps: 151
+Frames: 1036017
+Game 9607 | Score 650 | Record: 11250 | Steps: 164
+Frames: 1036181
+Game 9608 | Score 4625 | Record: 11250 | Steps: 199
+Frames: 1036380
+Game 9609 | Score 2350 | Record: 11250 | Steps: 134
+Frames: 1036514
+Game 9610 | Score 7425 | Record: 11250 | Steps: 242
+Frames: 1036756
+Game 9611 | Score 675 | Record: 11250 | Steps: 127
+Frames: 1036883
+Game 9612 | Score 2575 | Record: 11250 | Steps: 221
+Frames: 1037104
+Game 9613 | Score 1175 | Record: 11250 | Steps: 188
+Frames: 1037292
+Game 9614 | Score 1175 | Record: 11250 | Steps: 252
+Frames: 1037544
+Game 9615 | Score 2400 | Record: 11250 | Steps: 124
+Frames: 1037668
+Game 9616 | Score 675 | Record: 11250 | Steps: 150
+Frames: 1037818
+Game 9617 | Score 675 | Record: 11250 | Steps: 101
+Frames: 1037919
+Game 9618 | Score 2375 | Record: 11250 | Steps: 176
+Frames: 1038095
+Game 9619 | Score 675 | Record: 11250 | Steps: 116
+Frames: 1038211
+Game 9620 | Score 550 | Record: 11250 | Steps: 195
+Frames: 1038406
+Game 9621 | Score 425 | Record: 11250 | Steps: 197
+Frames: 1038603
+Game 9622 | Score 625 | Record: 11250 | Steps: 101
+Frames: 1038704
+Game 9623 | Score 675 | Record: 11250 | Steps: 92
+Frames: 1038796
+Game 9624 | Score 675 | Record: 11250 | Steps: 96
+Frames: 1038892
+Game 9625 | Score 475 | Record: 11250 | Steps: 143
+Frames: 1039035
+Game 9626 | Score 2475 | Record: 11250 | Steps: 206
+Frames: 1039241
+Game 9627 | Score 625 | Record: 11250 | Steps: 129
+Frames: 1039370
+Game 9628 | Score 575 | Record: 11250 | Steps: 116
+Frames: 1039486
+Game 9629 | Score 600 | Record: 11250 | Steps: 181
+Frames: 1039667
+Game 9630 | Score 650 | Record: 11250 | Steps: 86
+Frames: 1039753
+Game 9631 | Score 675 | Record: 11250 | Steps: 133
+Frames: 1039886
+Game 9632 | Score 650 | Record: 11250 | Steps: 115
+Frames: 1040001
+Game 9633 | Score 675 | Record: 11250 | Steps: 162
+Frames: 1040163
+Game 9634 | Score 675 | Record: 11250 | Steps: 227
+Frames: 1040390
+Game 9635 | Score 600 | Record: 11250 | Steps: 104
+Frames: 1040494
+Game 9636 | Score 2250 | Record: 11250 | Steps: 122
+Frames: 1040616
+Game 9637 | Score 650 | Record: 11250 | Steps: 155
+Frames: 1040771
+Game 9638 | Score 475 | Record: 11250 | Steps: 128
+Frames: 1040899
+Game 9639 | Score 425 | Record: 11250 | Steps: 186
+Frames: 1041085
+Game 9640 | Score 675 | Record: 11250 | Steps: 147
+Frames: 1041232
+Game 9641 | Score 600 | Record: 11250 | Steps: 104
+Frames: 1041336
+Game 9642 | Score 500 | Record: 11250 | Steps: 225
+Frames: 1041561
+Game 9643 | Score 2575 | Record: 11250 | Steps: 175
+Frames: 1041736
+Game 9644 | Score 475 | Record: 11250 | Steps: 138
+Frames: 1041874
+Game 9645 | Score 675 | Record: 11250 | Steps: 118
+Frames: 1041992
+Game 9646 | Score 650 | Record: 11250 | Steps: 192
+Frames: 1042184
+Game 9647 | Score 2550 | Record: 11250 | Steps: 160
+Frames: 1042344
+Game 9648 | Score 650 | Record: 11250 | Steps: 125
+Frames: 1042469
+Game 9649 | Score 675 | Record: 11250 | Steps: 115
+Frames: 1042584
+Game 9650 | Score 675 | Record: 11250 | Steps: 119
+Frames: 1042703
+Game 9651 | Score 625 | Record: 11250 | Steps: 101
+Frames: 1042804
+Game 9652 | Score 600 | Record: 11250 | Steps: 133
+Frames: 1042937
+Game 9653 | Score 1175 | Record: 11250 | Steps: 145
+Frames: 1043082
+Game 9654 | Score 675 | Record: 11250 | Steps: 149
+Frames: 1043231
+Game 9655 | Score 2125 | Record: 11250 | Steps: 122
+Frames: 1043353
+Game 9656 | Score 675 | Record: 11250 | Steps: 126
+Frames: 1043479
+Game 9657 | Score 600 | Record: 11250 | Steps: 181
+Frames: 1043660
+Game 9658 | Score 675 | Record: 11250 | Steps: 145
+Frames: 1043805
+Game 9659 | Score 550 | Record: 11250 | Steps: 97
+Frames: 1043902
+Game 9660 | Score 625 | Record: 11250 | Steps: 98
+Frames: 1044000
+Game 9661 | Score 4775 | Record: 11250 | Steps: 145
+Frames: 1044145
+Game 9662 | Score 675 | Record: 11250 | Steps: 171
+Frames: 1044316
+Game 9663 | Score 625 | Record: 11250 | Steps: 82
+Frames: 1044398
+Game 9664 | Score 575 | Record: 11250 | Steps: 202
+Frames: 1044600
+Game 9665 | Score 675 | Record: 11250 | Steps: 90
+Frames: 1044690
+Game 9666 | Score 550 | Record: 11250 | Steps: 154
+Frames: 1044844
+Game 9667 | Score 525 | Record: 11250 | Steps: 162
+Frames: 1045006
+Game 9668 | Score 2375 | Record: 11250 | Steps: 130
+Frames: 1045136
+Game 9669 | Score 600 | Record: 11250 | Steps: 130
+Frames: 1045266
+Game 9670 | Score 1175 | Record: 11250 | Steps: 146
+Frames: 1045412
+Game 9671 | Score 575 | Record: 11250 | Steps: 137
+Frames: 1045549
+Game 9672 | Score 675 | Record: 11250 | Steps: 147
+Frames: 1045696
+Game 9673 | Score 3075 | Record: 11250 | Steps: 225
+Frames: 1045921
+Game 9674 | Score 6975 | Record: 11250 | Steps: 245
+Frames: 1046166
+Game 9675 | Score 625 | Record: 11250 | Steps: 115
+Frames: 1046281
+Game 9676 | Score 600 | Record: 11250 | Steps: 132
+Frames: 1046413
+Game 9677 | Score 575 | Record: 11250 | Steps: 154
+Frames: 1046567
+Game 9678 | Score 475 | Record: 11250 | Steps: 218
+Frames: 1046785
+Game 9679 | Score 475 | Record: 11250 | Steps: 113
+Frames: 1046898
+Game 9680 | Score 650 | Record: 11250 | Steps: 109
+Frames: 1047007
+Game 9681 | Score 5375 | Record: 11250 | Steps: 212
+Frames: 1047219
+Game 9682 | Score 675 | Record: 11250 | Steps: 157
+Frames: 1047376
+Game 9683 | Score 600 | Record: 11250 | Steps: 178
+Frames: 1047554
+Game 9684 | Score 1175 | Record: 11250 | Steps: 138
+Frames: 1047692
+Game 9685 | Score 650 | Record: 11250 | Steps: 162
+Frames: 1047854
+Game 9686 | Score 550 | Record: 11250 | Steps: 71
+Frames: 1047925
+Game 9687 | Score 1175 | Record: 11250 | Steps: 138
+Frames: 1048063
+Game 9688 | Score 400 | Record: 11250 | Steps: 145
+Frames: 1048208
+Game 9689 | Score 7425 | Record: 11250 | Steps: 263
+Frames: 1048471
+Game 9690 | Score 2575 | Record: 11250 | Steps: 142
+Frames: 1048613
+Game 9691 | Score 4975 | Record: 11250 | Steps: 161
+Frames: 1048774
+Game 9692 | Score 625 | Record: 11250 | Steps: 72
+Frames: 1048846
+Game 9693 | Score 2950 | Record: 11250 | Steps: 241
+Frames: 1049087
+Game 9694 | Score 650 | Record: 11250 | Steps: 133
+Frames: 1049220
+Game 9695 | Score 2425 | Record: 11250 | Steps: 197
+Frames: 1049417
+Game 9696 | Score 475 | Record: 11250 | Steps: 142
+Frames: 1049559
+Game 9697 | Score 600 | Record: 11250 | Steps: 90
+Frames: 1049649
+Game 9698 | Score 675 | Record: 11250 | Steps: 162
+Frames: 1049811
+Game 9699 | Score 675 | Record: 11250 | Steps: 95
+Frames: 1049906
+Game 9700 | Score 675 | Record: 11250 | Steps: 181
+Frames: 1050087
+Game 9701 | Score 2125 | Record: 11250 | Steps: 92
+Frames: 1050179
+Game 9702 | Score 625 | Record: 11250 | Steps: 146
+Frames: 1050325
+Game 9703 | Score 2250 | Record: 11250 | Steps: 158
+Frames: 1050483
+Game 9704 | Score 2525 | Record: 11250 | Steps: 145
+Frames: 1050628
+Game 9705 | Score 600 | Record: 11250 | Steps: 142
+Frames: 1050770
+Game 9706 | Score 500 | Record: 11250 | Steps: 97
+Frames: 1050867
+Game 9707 | Score 600 | Record: 11250 | Steps: 149
+Frames: 1051016
+Game 9708 | Score 675 | Record: 11250 | Steps: 115
+Frames: 1051131
+Game 9709 | Score 4850 | Record: 11250 | Steps: 207
+Frames: 1051338
+Game 9710 | Score 675 | Record: 11250 | Steps: 175
+Frames: 1051513
+Game 9711 | Score 2575 | Record: 11250 | Steps: 146
+Frames: 1051659
+Game 9712 | Score 675 | Record: 11250 | Steps: 166
+Frames: 1051825
+Game 9713 | Score 675 | Record: 11250 | Steps: 180
+Frames: 1052005
+Game 9714 | Score 575 | Record: 11250 | Steps: 153
+Frames: 1052158
+Game 9715 | Score 475 | Record: 11250 | Steps: 168
+Frames: 1052326
+Game 9716 | Score 1175 | Record: 11250 | Steps: 276
+Frames: 1052602
+Game 9717 | Score 4950 | Record: 11250 | Steps: 276
+Frames: 1052878
+Game 9718 | Score 5025 | Record: 11250 | Steps: 280
+Frames: 1053158
+Game 9719 | Score 2475 | Record: 11250 | Steps: 100
+Frames: 1053258
+Game 9720 | Score 2400 | Record: 11250 | Steps: 183
+Frames: 1053441
+Game 9721 | Score 5525 | Record: 11250 | Steps: 221
+Frames: 1053662
+Game 9722 | Score 2425 | Record: 11250 | Steps: 169
+Frames: 1053831
+Game 9723 | Score 2325 | Record: 11250 | Steps: 134
+Frames: 1053965
+Game 9724 | Score 675 | Record: 11250 | Steps: 159
+Frames: 1054124
+Game 9725 | Score 650 | Record: 11250 | Steps: 209
+Frames: 1054333
+Game 9726 | Score 675 | Record: 11250 | Steps: 116
+Frames: 1054449
+Game 9727 | Score 575 | Record: 11250 | Steps: 181
+Frames: 1054630
+Game 9728 | Score 2175 | Record: 11250 | Steps: 104
+Frames: 1054734
+Game 9729 | Score 650 | Record: 11250 | Steps: 106
+Frames: 1054840
+Game 9730 | Score 4375 | Record: 11250 | Steps: 227
+Frames: 1055067
+Game 9731 | Score 2875 | Record: 11250 | Steps: 146
+Frames: 1055213
+Game 9732 | Score 575 | Record: 11250 | Steps: 149
+Frames: 1055362
+Game 9733 | Score 675 | Record: 11250 | Steps: 142
+Frames: 1055504
+Game 9734 | Score 650 | Record: 11250 | Steps: 100
+Frames: 1055604
+Game 9735 | Score 675 | Record: 11250 | Steps: 125
+Frames: 1055729
+Game 9736 | Score 675 | Record: 11250 | Steps: 102
+Frames: 1055831
+Game 9737 | Score 425 | Record: 11250 | Steps: 121
+Frames: 1055952
+Game 9738 | Score 650 | Record: 11250 | Steps: 132
+Frames: 1056084
+Game 9739 | Score 2950 | Record: 11250 | Steps: 168
+Frames: 1056252
+Game 9740 | Score 675 | Record: 11250 | Steps: 167
+Frames: 1056419
+Game 9741 | Score 425 | Record: 11250 | Steps: 135
+Frames: 1056554
+Game 9742 | Score 4425 | Record: 11250 | Steps: 151
+Frames: 1056705
+Game 9743 | Score 650 | Record: 11250 | Steps: 149
+Frames: 1056854
+Game 9744 | Score 2150 | Record: 11250 | Steps: 127
+Frames: 1056981
+Game 9745 | Score 2575 | Record: 11250 | Steps: 166
+Frames: 1057147
+Game 9746 | Score 525 | Record: 11250 | Steps: 101
+Frames: 1057248
+Game 9747 | Score 425 | Record: 11250 | Steps: 212
+Frames: 1057460
+Game 9748 | Score 575 | Record: 11250 | Steps: 141
+Frames: 1057601
+Game 9749 | Score 650 | Record: 11250 | Steps: 118
+Frames: 1057719
+Game 9750 | Score 600 | Record: 11250 | Steps: 133
+Frames: 1057852
+Game 9751 | Score 2200 | Record: 11250 | Steps: 111
+Frames: 1057963
+Game 9752 | Score 2475 | Record: 11250 | Steps: 188
+Frames: 1058151
+Game 9753 | Score 2625 | Record: 11250 | Steps: 216
+Frames: 1058367
+Game 9754 | Score 675 | Record: 11250 | Steps: 91
+Frames: 1058458
+Game 9755 | Score 400 | Record: 11250 | Steps: 141
+Frames: 1058599
+Game 9756 | Score 575 | Record: 11250 | Steps: 100
+Frames: 1058699
+Game 9757 | Score 2700 | Record: 11250 | Steps: 160
+Frames: 1058859
+Game 9758 | Score 625 | Record: 11250 | Steps: 116
+Frames: 1058975
+Game 9759 | Score 675 | Record: 11250 | Steps: 88
+Frames: 1059063
+Game 9760 | Score 675 | Record: 11250 | Steps: 152
+Frames: 1059215
+Game 9761 | Score 575 | Record: 11250 | Steps: 155
+Frames: 1059370
+Game 9762 | Score 675 | Record: 11250 | Steps: 83
+Frames: 1059453
+Game 9763 | Score 675 | Record: 11250 | Steps: 176
+Frames: 1059629
+Game 9764 | Score 1175 | Record: 11250 | Steps: 159
+Frames: 1059788
+Game 9765 | Score 575 | Record: 11250 | Steps: 143
+Frames: 1059931
+Game 9766 | Score 650 | Record: 11250 | Steps: 179
+Frames: 1060110
+Game 9767 | Score 675 | Record: 11250 | Steps: 109
+Frames: 1060219
+Game 9768 | Score 650 | Record: 11250 | Steps: 221
+Frames: 1060440
+Game 9769 | Score 675 | Record: 11250 | Steps: 112
+Frames: 1060552
+Game 9770 | Score 675 | Record: 11250 | Steps: 77
+Frames: 1060629
+Game 9771 | Score 675 | Record: 11250 | Steps: 97
+Frames: 1060726
+Game 9772 | Score 650 | Record: 11250 | Steps: 264
+Frames: 1060990
+Game 9773 | Score 675 | Record: 11250 | Steps: 207
+Frames: 1061197
+Game 9774 | Score 650 | Record: 11250 | Steps: 148
+Frames: 1061345
+Game 9775 | Score 675 | Record: 11250 | Steps: 83
+Frames: 1061428
+Game 9776 | Score 675 | Record: 11250 | Steps: 94
+Frames: 1061522
+Game 9777 | Score 650 | Record: 11250 | Steps: 302
+Frames: 1061824
+Game 9778 | Score 1150 | Record: 11250 | Steps: 193
+Frames: 1062017
+Game 9779 | Score 675 | Record: 11250 | Steps: 139
+Frames: 1062156
+Game 9780 | Score 600 | Record: 11250 | Steps: 136
+Frames: 1062292
+Game 9781 | Score 675 | Record: 11250 | Steps: 133
+Frames: 1062425
+Game 9782 | Score 475 | Record: 11250 | Steps: 214
+Frames: 1062639
+Game 9783 | Score 2225 | Record: 11250 | Steps: 119
+Frames: 1062758
+Game 9784 | Score 675 | Record: 11250 | Steps: 158
+Frames: 1062916
+Game 9785 | Score 675 | Record: 11250 | Steps: 192
+Frames: 1063108
+Game 9786 | Score 675 | Record: 11250 | Steps: 207
+Frames: 1063315
+Game 9787 | Score 425 | Record: 11250 | Steps: 119
+Frames: 1063434
+Game 9788 | Score 475 | Record: 11250 | Steps: 116
+Frames: 1063550
+Game 9789 | Score 2575 | Record: 11250 | Steps: 199
+Frames: 1063749
+Game 9790 | Score 675 | Record: 11250 | Steps: 95
+Frames: 1063844
+Game 9791 | Score 650 | Record: 11250 | Steps: 82
+Frames: 1063926
+Game 9792 | Score 425 | Record: 11250 | Steps: 148
+Frames: 1064074
+Game 9793 | Score 1175 | Record: 11250 | Steps: 171
+Frames: 1064245
+Game 9794 | Score 625 | Record: 11250 | Steps: 272
+Frames: 1064517
+Game 9795 | Score 650 | Record: 11250 | Steps: 82
+Frames: 1064599
+Game 9796 | Score 475 | Record: 11250 | Steps: 114
+Frames: 1064713
+Game 9797 | Score 600 | Record: 11250 | Steps: 116
+Frames: 1064829
+Game 9798 | Score 650 | Record: 11250 | Steps: 216
+Frames: 1065045
+Game 9799 | Score 600 | Record: 11250 | Steps: 220
+Frames: 1065265
+Game 9800 | Score 675 | Record: 11250 | Steps: 111
+Frames: 1065376
+Game 9801 | Score 675 | Record: 11250 | Steps: 179
+Frames: 1065555
+Game 9802 | Score 550 | Record: 11250 | Steps: 100
+Frames: 1065655
+Game 9803 | Score 675 | Record: 11250 | Steps: 180
+Frames: 1065835
+Game 9804 | Score 2325 | Record: 11250 | Steps: 169
+Frames: 1066004
+Game 9805 | Score 675 | Record: 11250 | Steps: 157
+Frames: 1066161
+Game 9806 | Score 475 | Record: 11250 | Steps: 121
+Frames: 1066282
+Game 9807 | Score 675 | Record: 11250 | Steps: 119
+Frames: 1066401
+Game 9808 | Score 550 | Record: 11250 | Steps: 120
+Frames: 1066521
+Game 9809 | Score 275 | Record: 11250 | Steps: 128
+Frames: 1066649
+Game 9810 | Score 650 | Record: 11250 | Steps: 145
+Frames: 1066794
+Game 9811 | Score 575 | Record: 11250 | Steps: 138
+Frames: 1066932
+Game 9812 | Score 7275 | Record: 11250 | Steps: 373
+Frames: 1067305
+Game 9813 | Score 675 | Record: 11250 | Steps: 134
+Frames: 1067439
+Game 9814 | Score 525 | Record: 11250 | Steps: 191
+Frames: 1067630
+Game 9815 | Score 650 | Record: 11250 | Steps: 206
+Frames: 1067836
+Game 9816 | Score 650 | Record: 11250 | Steps: 110
+Frames: 1067946
+Game 9817 | Score 675 | Record: 11250 | Steps: 230
+Frames: 1068176
+Game 9818 | Score 675 | Record: 11250 | Steps: 147
+Frames: 1068323
+Game 9819 | Score 2100 | Record: 11250 | Steps: 100
+Frames: 1068423
+Game 9820 | Score 675 | Record: 11250 | Steps: 174
+Frames: 1068597
+Game 9821 | Score 600 | Record: 11250 | Steps: 132
+Frames: 1068729
+Game 9822 | Score 575 | Record: 11250 | Steps: 214
+Frames: 1068943
+Game 9823 | Score 475 | Record: 11250 | Steps: 129
+Frames: 1069072
+Game 9824 | Score 2575 | Record: 11250 | Steps: 199
+Frames: 1069271
+Game 9825 | Score 4975 | Record: 11250 | Steps: 232
+Frames: 1069503
+Game 9826 | Score 575 | Record: 11250 | Steps: 218
+Frames: 1069721
+Game 9827 | Score 625 | Record: 11250 | Steps: 142
+Frames: 1069863
+Game 9828 | Score 675 | Record: 11250 | Steps: 174
+Frames: 1070037
+Game 9829 | Score 675 | Record: 11250 | Steps: 151
+Frames: 1070188
+Game 9830 | Score 575 | Record: 11250 | Steps: 309
+Frames: 1070497
+Game 9831 | Score 600 | Record: 11250 | Steps: 131
+Frames: 1070628
+Game 9832 | Score 675 | Record: 11250 | Steps: 108
+Frames: 1070736
+Game 9833 | Score 475 | Record: 11250 | Steps: 154
+Frames: 1070890
+Game 9834 | Score 2375 | Record: 11250 | Steps: 134
+Frames: 1071024
+Game 9835 | Score 2975 | Record: 11250 | Steps: 251
+Frames: 1071275
+Game 9836 | Score 475 | Record: 11250 | Steps: 161
+Frames: 1071436
+Game 9837 | Score 475 | Record: 11250 | Steps: 191
+Frames: 1071627
+Game 9838 | Score 600 | Record: 11250 | Steps: 147
+Frames: 1071774
+Game 9839 | Score 675 | Record: 11250 | Steps: 173
+Frames: 1071947
+Game 9840 | Score 8275 | Record: 11250 | Steps: 313
+Frames: 1072260
+Game 9841 | Score 675 | Record: 11250 | Steps: 132
+Frames: 1072392
+Game 9842 | Score 275 | Record: 11250 | Steps: 209
+Frames: 1072601
+Game 9843 | Score 675 | Record: 11250 | Steps: 119
+Frames: 1072720
+Game 9844 | Score 375 | Record: 11250 | Steps: 93
+Frames: 1072813
+Game 9845 | Score 1175 | Record: 11250 | Steps: 167
+Frames: 1072980
+Game 9846 | Score 575 | Record: 11250 | Steps: 173
+Frames: 1073153
+Game 9847 | Score 575 | Record: 11250 | Steps: 146
+Frames: 1073299
+Game 9848 | Score 1175 | Record: 11250 | Steps: 116
+Frames: 1073415
+Game 9849 | Score 650 | Record: 11250 | Steps: 153
+Frames: 1073568
+Game 9850 | Score 425 | Record: 11250 | Steps: 101
+Frames: 1073669
+Game 9851 | Score 675 | Record: 11250 | Steps: 112
+Frames: 1073781
+Game 9852 | Score 550 | Record: 11250 | Steps: 149
+Frames: 1073930
+Game 9853 | Score 1175 | Record: 11250 | Steps: 235
+Frames: 1074165
+Game 9854 | Score 600 | Record: 11250 | Steps: 124
+Frames: 1074289
+Game 9855 | Score 675 | Record: 11250 | Steps: 146
+Frames: 1074435
+Game 9856 | Score 600 | Record: 11250 | Steps: 230
+Frames: 1074665
+Game 9857 | Score 675 | Record: 11250 | Steps: 95
+Frames: 1074760
+Game 9858 | Score 675 | Record: 11250 | Steps: 103
+Frames: 1074863
+Game 9859 | Score 4325 | Record: 11250 | Steps: 163
+Frames: 1075026
+Game 9860 | Score 675 | Record: 11250 | Steps: 83
+Frames: 1075109
+Game 9861 | Score 675 | Record: 11250 | Steps: 208
+Frames: 1075317
+Game 9862 | Score 675 | Record: 11250 | Steps: 151
+Frames: 1075468
+Game 9863 | Score 1175 | Record: 11250 | Steps: 176
+Frames: 1075644
+Game 9864 | Score 675 | Record: 11250 | Steps: 166
+Frames: 1075810
+Game 9865 | Score 550 | Record: 11250 | Steps: 163
+Frames: 1075973
+Game 9866 | Score 600 | Record: 11250 | Steps: 114
+Frames: 1076087
+Game 9867 | Score 675 | Record: 11250 | Steps: 147
+Frames: 1076234
+Game 9868 | Score 675 | Record: 11250 | Steps: 98
+Frames: 1076332
+Game 9869 | Score 575 | Record: 11250 | Steps: 125
+Frames: 1076457
+Game 9870 | Score 675 | Record: 11250 | Steps: 173
+Frames: 1076630
+Game 9871 | Score 650 | Record: 11250 | Steps: 208
+Frames: 1076838
+Game 9872 | Score 675 | Record: 11250 | Steps: 106
+Frames: 1076944
+Game 9873 | Score 1125 | Record: 11250 | Steps: 315
+Frames: 1077259
+Game 9874 | Score 650 | Record: 11250 | Steps: 176
+Frames: 1077435
+Game 9875 | Score 600 | Record: 11250 | Steps: 91
+Frames: 1077526
+Game 9876 | Score 675 | Record: 11250 | Steps: 109
+Frames: 1077635
+Game 9877 | Score 600 | Record: 11250 | Steps: 110
+Frames: 1077745
+Game 9878 | Score 475 | Record: 11250 | Steps: 93
+Frames: 1077838
+Game 9879 | Score 675 | Record: 11250 | Steps: 204
+Frames: 1078042
+Game 9880 | Score 675 | Record: 11250 | Steps: 116
+Frames: 1078158
+Game 9881 | Score 675 | Record: 11250 | Steps: 70
+Frames: 1078228
+Game 9882 | Score 675 | Record: 11250 | Steps: 185
+Frames: 1078413
+Game 9883 | Score 2000 | Record: 11250 | Steps: 150
+Frames: 1078563
+Game 9884 | Score 600 | Record: 11250 | Steps: 147
+Frames: 1078710
+Game 9885 | Score 675 | Record: 11250 | Steps: 137
+Frames: 1078847
+Game 9886 | Score 675 | Record: 11250 | Steps: 81
+Frames: 1078928
+Game 9887 | Score 425 | Record: 11250 | Steps: 149
+Frames: 1079077
+Game 9888 | Score 475 | Record: 11250 | Steps: 119
+Frames: 1079196
+Game 9889 | Score 500 | Record: 11250 | Steps: 131
+Frames: 1079327
+Game 9890 | Score 2450 | Record: 11250 | Steps: 107
+Frames: 1079434
+Game 9891 | Score 475 | Record: 11250 | Steps: 223
+Frames: 1079657
+Game 9892 | Score 600 | Record: 11250 | Steps: 170
+Frames: 1079827
+Game 9893 | Score 600 | Record: 11250 | Steps: 120
+Frames: 1079947
+Game 9894 | Score 650 | Record: 11250 | Steps: 179
+Frames: 1080126
+Game 9895 | Score 1150 | Record: 11250 | Steps: 131
+Frames: 1080257
+Game 9896 | Score 675 | Record: 11250 | Steps: 177
+Frames: 1080434
+Game 9897 | Score 1175 | Record: 11250 | Steps: 175
+Frames: 1080609
+Game 9898 | Score 675 | Record: 11250 | Steps: 144
+Frames: 1080753
+Game 9899 | Score 675 | Record: 11250 | Steps: 131
+Frames: 1080884
+Game 9900 | Score 600 | Record: 11250 | Steps: 154
+Frames: 1081038
+Game 9901 | Score 675 | Record: 11250 | Steps: 126
+Frames: 1081164
+Game 9902 | Score 475 | Record: 11250 | Steps: 134
+Frames: 1081298
+Game 9903 | Score 675 | Record: 11250 | Steps: 157
+Frames: 1081455
+Game 9904 | Score 675 | Record: 11250 | Steps: 69
+Frames: 1081524
+Game 9905 | Score 675 | Record: 11250 | Steps: 147
+Frames: 1081671
+Game 9906 | Score 2825 | Record: 11250 | Steps: 116
+Frames: 1081787
+Game 9907 | Score 675 | Record: 11250 | Steps: 99
+Frames: 1081886
+Game 9908 | Score 3075 | Record: 11250 | Steps: 219
+Frames: 1082105
+Game 9909 | Score 2175 | Record: 11250 | Steps: 164
+Frames: 1082269
+Game 9910 | Score 675 | Record: 11250 | Steps: 135
+Frames: 1082404
+Game 9911 | Score 675 | Record: 11250 | Steps: 139
+Frames: 1082543
+Game 9912 | Score 2475 | Record: 11250 | Steps: 165
+Frames: 1082708
+Game 9913 | Score 675 | Record: 11250 | Steps: 202
+Frames: 1082910
+Game 9914 | Score 2975 | Record: 11250 | Steps: 164
+Frames: 1083074
+Game 9915 | Score 425 | Record: 11250 | Steps: 108
+Frames: 1083182
+Game 9916 | Score 1175 | Record: 11250 | Steps: 169
+Frames: 1083351
+Game 9917 | Score 625 | Record: 11250 | Steps: 213
+Frames: 1083564
+Game 9918 | Score 600 | Record: 11250 | Steps: 135
+Frames: 1083699
+Game 9919 | Score 275 | Record: 11250 | Steps: 152
+Frames: 1083851
+Game 9920 | Score 675 | Record: 11250 | Steps: 148
+Frames: 1083999
+Game 9921 | Score 625 | Record: 11250 | Steps: 183
+Frames: 1084182
+Game 9922 | Score 4650 | Record: 11250 | Steps: 240
+Frames: 1084422
+Game 9923 | Score 675 | Record: 11250 | Steps: 159
+Frames: 1084581
+Game 9924 | Score 575 | Record: 11250 | Steps: 110
+Frames: 1084691
+Game 9925 | Score 675 | Record: 11250 | Steps: 102
+Frames: 1084793
+Game 9926 | Score 650 | Record: 11250 | Steps: 217
+Frames: 1085010
+Game 9927 | Score 675 | Record: 11250 | Steps: 113
+Frames: 1085123
+Game 9928 | Score 675 | Record: 11250 | Steps: 143
+Frames: 1085266
+Game 9929 | Score 550 | Record: 11250 | Steps: 145
+Frames: 1085411
+Game 9930 | Score 675 | Record: 11250 | Steps: 127
+Frames: 1085538
+Game 9931 | Score 675 | Record: 11250 | Steps: 130
+Frames: 1085668
+Game 9932 | Score 675 | Record: 11250 | Steps: 104
+Frames: 1085772
+Game 9933 | Score 4575 | Record: 11250 | Steps: 176
+Frames: 1085948
+Game 9934 | Score 2350 | Record: 11250 | Steps: 111
+Frames: 1086059
+Game 9935 | Score 675 | Record: 11250 | Steps: 107
+Frames: 1086166
+Game 9936 | Score 425 | Record: 11250 | Steps: 120
+Frames: 1086286
+Game 9937 | Score 525 | Record: 11250 | Steps: 198
+Frames: 1086484
+Game 9938 | Score 650 | Record: 11250 | Steps: 154
+Frames: 1086638
+Game 9939 | Score 2275 | Record: 11250 | Steps: 85
+Frames: 1086723
+Game 9940 | Score 2375 | Record: 11250 | Steps: 229
+Frames: 1086952
+Game 9941 | Score 675 | Record: 11250 | Steps: 166
+Frames: 1087118
+Game 9942 | Score 625 | Record: 11250 | Steps: 145
+Frames: 1087263
+Game 9943 | Score 550 | Record: 11250 | Steps: 160
+Frames: 1087423
+Game 9944 | Score 675 | Record: 11250 | Steps: 152
+Frames: 1087575
+Game 9945 | Score 3150 | Record: 11250 | Steps: 297
+Frames: 1087872
+Game 9946 | Score 525 | Record: 11250 | Steps: 155
+Frames: 1088027
+Game 9947 | Score 675 | Record: 11250 | Steps: 168
+Frames: 1088195
+Game 9948 | Score 1150 | Record: 11250 | Steps: 209
+Frames: 1088404
+Game 9949 | Score 525 | Record: 11250 | Steps: 208
+Frames: 1088612
+Game 9950 | Score 625 | Record: 11250 | Steps: 126
+Frames: 1088738
+Game 9951 | Score 425 | Record: 11250 | Steps: 116
+Frames: 1088854
+Game 9952 | Score 675 | Record: 11250 | Steps: 166
+Frames: 1089020
+Game 9953 | Score 425 | Record: 11250 | Steps: 260
+Frames: 1089280
+Game 9954 | Score 675 | Record: 11250 | Steps: 97
+Frames: 1089377
+Game 9955 | Score 675 | Record: 11250 | Steps: 104
+Frames: 1089481
+Game 9956 | Score 675 | Record: 11250 | Steps: 129
+Frames: 1089610
+Game 9957 | Score 2275 | Record: 11250 | Steps: 116
+Frames: 1089726
+Game 9958 | Score 275 | Record: 11250 | Steps: 143
+Frames: 1089869
+Game 9959 | Score 2300 | Record: 11250 | Steps: 135
+Frames: 1090004
+Game 9960 | Score 475 | Record: 11250 | Steps: 122
+Frames: 1090126
+Game 9961 | Score 675 | Record: 11250 | Steps: 161
+Frames: 1090287
+Game 9962 | Score 675 | Record: 11250 | Steps: 110
+Frames: 1090397
+Game 9963 | Score 1175 | Record: 11250 | Steps: 156
+Frames: 1090553
+Game 9964 | Score 425 | Record: 11250 | Steps: 116
+Frames: 1090669
+Game 9965 | Score 575 | Record: 11250 | Steps: 181
+Frames: 1090850
+Game 9966 | Score 475 | Record: 11250 | Steps: 133
+Frames: 1090983
+Game 9967 | Score 675 | Record: 11250 | Steps: 125
+Frames: 1091108
+Game 9968 | Score 675 | Record: 11250 | Steps: 181
+Frames: 1091289
+Game 9969 | Score 2225 | Record: 11250 | Steps: 118
+Frames: 1091407
+Game 9970 | Score 1100 | Record: 11250 | Steps: 350
+Frames: 1091757
+Game 9971 | Score 575 | Record: 11250 | Steps: 142
+Frames: 1091899
+Game 9972 | Score 650 | Record: 11250 | Steps: 123
+Frames: 1092022
+Game 9973 | Score 650 | Record: 11250 | Steps: 236
+Frames: 1092258
+Game 9974 | Score 3075 | Record: 11250 | Steps: 163
+Frames: 1092421
+Game 9975 | Score 5675 | Record: 11250 | Steps: 224
+Frames: 1092645
+Game 9976 | Score 650 | Record: 11250 | Steps: 189
+Frames: 1092834
+Game 9977 | Score 675 | Record: 11250 | Steps: 143
+Frames: 1092977
+Game 9978 | Score 675 | Record: 11250 | Steps: 129
+Frames: 1093106
+Game 9979 | Score 550 | Record: 11250 | Steps: 81
+Frames: 1093187
+Game 9980 | Score 650 | Record: 11250 | Steps: 84
+Frames: 1093271
+Game 9981 | Score 1175 | Record: 11250 | Steps: 273
+Frames: 1093544
+Game 9982 | Score 5150 | Record: 11250 | Steps: 175
+Frames: 1093719
+Game 9983 | Score 625 | Record: 11250 | Steps: 163
+Frames: 1093882
+Game 9984 | Score 475 | Record: 11250 | Steps: 173
+Frames: 1094055
+Game 9985 | Score 675 | Record: 11250 | Steps: 139
+Frames: 1094194
+Game 9986 | Score 525 | Record: 11250 | Steps: 225
+Frames: 1094419
+Game 9987 | Score 2350 | Record: 11250 | Steps: 93
+Frames: 1094512
+Game 9988 | Score 425 | Record: 11250 | Steps: 167
+Frames: 1094679
+Game 9989 | Score 675 | Record: 11250 | Steps: 255
+Frames: 1094934
+Game 9990 | Score 675 | Record: 11250 | Steps: 85
+Frames: 1095019
+Game 9991 | Score 600 | Record: 11250 | Steps: 199
+Frames: 1095218
+Game 9992 | Score 650 | Record: 11250 | Steps: 89
+Frames: 1095307
+Game 9993 | Score 650 | Record: 11250 | Steps: 149
+Frames: 1095456
+Game 9994 | Score 650 | Record: 11250 | Steps: 158
+Frames: 1095614
+Game 9995 | Score 675 | Record: 11250 | Steps: 133
+Frames: 1095747
+Game 9996 | Score 650 | Record: 11250 | Steps: 102
+Frames: 1095849
+Game 9997 | Score 650 | Record: 11250 | Steps: 133
+Frames: 1095982
+Game 9998 | Score 2300 | Record: 11250 | Steps: 150
+Frames: 1096132
+Game 9999 | Score 575 | Record: 11250 | Steps: 119
+Frames: 1096251
+Game 10000 | Score 5050 | Record: 11250 | Steps: 193
+Frames: 1096444
+Game 10001 | Score 625 | Record: 11250 | Steps: 133
+Frames: 1096577
+Game 10002 | Score 425 | Record: 11250 | Steps: 127
+Frames: 1096704
+Game 10003 | Score 650 | Record: 11250 | Steps: 153
+Frames: 1096857
+Game 10004 | Score 675 | Record: 11250 | Steps: 103
+Frames: 1096960
+Game 10005 | Score 525 | Record: 11250 | Steps: 132
+Frames: 1097092
+Game 10006 | Score 650 | Record: 11250 | Steps: 168
+Frames: 1097260
+Game 10007 | Score 2425 | Record: 11250 | Steps: 151
+Frames: 1097411
+Game 10008 | Score 675 | Record: 11250 | Steps: 134
+Frames: 1097545
+Game 10009 | Score 2325 | Record: 11250 | Steps: 153
+Frames: 1097698
+Game 10010 | Score 2675 | Record: 11250 | Steps: 158
+Frames: 1097856
+Game 10011 | Score 625 | Record: 11250 | Steps: 73
+Frames: 1097929
+Game 10012 | Score 675 | Record: 11250 | Steps: 98
+Frames: 1098027
+Game 10013 | Score 550 | Record: 11250 | Steps: 161
+Frames: 1098188
+Game 10014 | Score 675 | Record: 11250 | Steps: 173
+Frames: 1098361
+Game 10015 | Score 675 | Record: 11250 | Steps: 162
+Frames: 1098523
+Game 10016 | Score 675 | Record: 11250 | Steps: 107
+Frames: 1098630
+Game 10017 | Score 1175 | Record: 11250 | Steps: 270
+Frames: 1098900
+Game 10018 | Score 625 | Record: 11250 | Steps: 145
+Frames: 1099045
+Game 10019 | Score 650 | Record: 11250 | Steps: 149
+Frames: 1099194
+Game 10020 | Score 675 | Record: 11250 | Steps: 143
+Frames: 1099337
+Game 10021 | Score 350 | Record: 11250 | Steps: 194
+Frames: 1099531
+Game 10022 | Score 2375 | Record: 11250 | Steps: 146
+Frames: 1099677
+Game 10023 | Score 675 | Record: 11250 | Steps: 195
+Frames: 1099872
+Game 10024 | Score 675 | Record: 11250 | Steps: 79
+Frames: 1099951
+Game 10025 | Score 525 | Record: 11250 | Steps: 178
+Frames: 1100129
+Game 10026 | Score 675 | Record: 11250 | Steps: 119
+Frames: 1100248
+Game 10027 | Score 675 | Record: 11250 | Steps: 93
+Frames: 1100341
+Game 10028 | Score 600 | Record: 11250 | Steps: 105
+Frames: 1100446
+Game 10029 | Score 575 | Record: 11250 | Steps: 174
+Frames: 1100620
+Game 10030 | Score 675 | Record: 11250 | Steps: 91
+Frames: 1100711
+Game 10031 | Score 675 | Record: 11250 | Steps: 145
+Frames: 1100856
+Game 10032 | Score 625 | Record: 11250 | Steps: 92
+Frames: 1100948
+Game 10033 | Score 475 | Record: 11250 | Steps: 140
+Frames: 1101088
+Game 10034 | Score 5250 | Record: 11250 | Steps: 184
+Frames: 1101272
+Game 10035 | Score 1125 | Record: 11250 | Steps: 277
+Frames: 1101549
+Game 10036 | Score 575 | Record: 11250 | Steps: 140
+Frames: 1101689
+Game 10037 | Score 425 | Record: 11250 | Steps: 114
+Frames: 1101803
+Game 10038 | Score 5575 | Record: 11250 | Steps: 241
+Frames: 1102044
+Game 10039 | Score 2575 | Record: 11250 | Steps: 171
+Frames: 1102215
+Game 10040 | Score 450 | Record: 11250 | Steps: 78
+Frames: 1102293
+Game 10041 | Score 2300 | Record: 11250 | Steps: 102
+Frames: 1102395
+Game 10042 | Score 675 | Record: 11250 | Steps: 132
+Frames: 1102527
+Game 10043 | Score 650 | Record: 11250 | Steps: 206
+Frames: 1102733
+Game 10044 | Score 575 | Record: 11250 | Steps: 125
+Frames: 1102858
+Game 10045 | Score 675 | Record: 11250 | Steps: 129
+Frames: 1102987
+Game 10046 | Score 650 | Record: 11250 | Steps: 103
+Frames: 1103090
+Game 10047 | Score 600 | Record: 11250 | Steps: 73
+Frames: 1103163
+Game 10048 | Score 550 | Record: 11250 | Steps: 165
+Frames: 1103328
+Game 10049 | Score 600 | Record: 11250 | Steps: 143
+Frames: 1103471
+Game 10050 | Score 675 | Record: 11250 | Steps: 120
+Frames: 1103591
+Game 10051 | Score 675 | Record: 11250 | Steps: 148
+Frames: 1103739
+Game 10052 | Score 650 | Record: 11250 | Steps: 118
+Frames: 1103857
+Game 10053 | Score 4825 | Record: 11250 | Steps: 199
+Frames: 1104056
+Game 10054 | Score 600 | Record: 11250 | Steps: 133
+Frames: 1104189
+Game 10055 | Score 575 | Record: 11250 | Steps: 137
+Frames: 1104326
+Game 10056 | Score 2375 | Record: 11250 | Steps: 105
+Frames: 1104431
+Game 10057 | Score 2575 | Record: 11250 | Steps: 174
+Frames: 1104605
+Game 10058 | Score 675 | Record: 11250 | Steps: 118
+Frames: 1104723
+Game 10059 | Score 675 | Record: 11250 | Steps: 168
+Frames: 1104891
+Game 10060 | Score 600 | Record: 11250 | Steps: 135
+Frames: 1105026
+Game 10061 | Score 550 | Record: 11250 | Steps: 112
+Frames: 1105138
+Game 10062 | Score 1075 | Record: 11250 | Steps: 266
+Frames: 1105404
+Game 10063 | Score 500 | Record: 11250 | Steps: 187
+Frames: 1105591
+Game 10064 | Score 600 | Record: 11250 | Steps: 155
+Frames: 1105746
+Game 10065 | Score 675 | Record: 11250 | Steps: 146
+Frames: 1105892
+Game 10066 | Score 675 | Record: 11250 | Steps: 156
+Frames: 1106048
+Game 10067 | Score 425 | Record: 11250 | Steps: 105
+Frames: 1106153
+Game 10068 | Score 675 | Record: 11250 | Steps: 161
+Frames: 1106314
+Game 10069 | Score 675 | Record: 11250 | Steps: 103
+Frames: 1106417
+Game 10070 | Score 525 | Record: 11250 | Steps: 207
+Frames: 1106624
+Game 10071 | Score 575 | Record: 11250 | Steps: 105
+Frames: 1106729
+Game 10072 | Score 675 | Record: 11250 | Steps: 73
+Frames: 1106802
+Game 10073 | Score 675 | Record: 11250 | Steps: 128
+Frames: 1106930
+Game 10074 | Score 600 | Record: 11250 | Steps: 132
+Frames: 1107062
+Game 10075 | Score 600 | Record: 11250 | Steps: 114
+Frames: 1107176
+Game 10076 | Score 625 | Record: 11250 | Steps: 136
+Frames: 1107312
+Game 10077 | Score 675 | Record: 11250 | Steps: 117
+Frames: 1107429
+Game 10078 | Score 300 | Record: 11250 | Steps: 129
+Frames: 1107558
+Game 10079 | Score 675 | Record: 11250 | Steps: 100
+Frames: 1107658
+Game 10080 | Score 1000 | Record: 11250 | Steps: 154
+Frames: 1107812
+Game 10081 | Score 675 | Record: 11250 | Steps: 114
+Frames: 1107926
+Game 10082 | Score 675 | Record: 11250 | Steps: 107
+Frames: 1108033
+Game 10083 | Score 525 | Record: 11250 | Steps: 187
+Frames: 1108220
+Game 10084 | Score 600 | Record: 11250 | Steps: 149
+Frames: 1108369
+Game 10085 | Score 625 | Record: 11250 | Steps: 148
+Frames: 1108517
+Game 10086 | Score 650 | Record: 11250 | Steps: 103
+Frames: 1108620
+Game 10087 | Score 575 | Record: 11250 | Steps: 188
+Frames: 1108808
+Game 10088 | Score 675 | Record: 11250 | Steps: 117
+Frames: 1108925
+Game 10089 | Score 1125 | Record: 11250 | Steps: 318
+Frames: 1109243
+Game 10090 | Score 650 | Record: 11250 | Steps: 110
+Frames: 1109353
+Game 10091 | Score 2450 | Record: 11250 | Steps: 116
+Frames: 1109469
+Game 10092 | Score 2100 | Record: 11250 | Steps: 131
+Frames: 1109600
+Game 10093 | Score 675 | Record: 11250 | Steps: 96
+Frames: 1109696
+Game 10094 | Score 600 | Record: 11250 | Steps: 86
+Frames: 1109782
+Game 10095 | Score 650 | Record: 11250 | Steps: 97
+Frames: 1109879
+Game 10096 | Score 550 | Record: 11250 | Steps: 130
+Frames: 1110009
+Game 10097 | Score 1175 | Record: 11250 | Steps: 110
+Frames: 1110119
+Game 10098 | Score 425 | Record: 11250 | Steps: 116
+Frames: 1110235
+Game 10099 | Score 675 | Record: 11250 | Steps: 113
+Frames: 1110348
+Game 10100 | Score 675 | Record: 11250 | Steps: 157
+Frames: 1110505
+Game 10101 | Score 550 | Record: 11250 | Steps: 120
+Frames: 1110625
+Game 10102 | Score 500 | Record: 11250 | Steps: 210
+Frames: 1110835
+Game 10103 | Score 425 | Record: 11250 | Steps: 128
+Frames: 1110963
+Game 10104 | Score 1175 | Record: 11250 | Steps: 134
+Frames: 1111097
+Game 10105 | Score 575 | Record: 11250 | Steps: 106
+Frames: 1111203
+Game 10106 | Score 625 | Record: 11250 | Steps: 117
+Frames: 1111320
+Game 10107 | Score 650 | Record: 11250 | Steps: 210
+Frames: 1111530
+Game 10108 | Score 675 | Record: 11250 | Steps: 141
+Frames: 1111671
+Game 10109 | Score 625 | Record: 11250 | Steps: 120
+Frames: 1111791
+Game 10110 | Score 575 | Record: 11250 | Steps: 153
+Frames: 1111944
+Game 10111 | Score 2450 | Record: 11250 | Steps: 149
+Frames: 1112093
+Game 10112 | Score 575 | Record: 11250 | Steps: 157
+Frames: 1112250
+Game 10113 | Score 675 | Record: 11250 | Steps: 124
+Frames: 1112374
+Game 10114 | Score 675 | Record: 11250 | Steps: 127
+Frames: 1112501
+Game 10115 | Score 675 | Record: 11250 | Steps: 153
+Frames: 1112654
+Game 10116 | Score 675 | Record: 11250 | Steps: 157
+Frames: 1112811
+Game 10117 | Score 4000 | Record: 11250 | Steps: 207
+Frames: 1113018
+Game 10118 | Score 600 | Record: 11250 | Steps: 147
+Frames: 1113165
+Game 10119 | Score 575 | Record: 11250 | Steps: 120
+Frames: 1113285
+Game 10120 | Score 650 | Record: 11250 | Steps: 206
+Frames: 1113491
+Game 10121 | Score 1175 | Record: 11250 | Steps: 245
+Frames: 1113736
+Game 10122 | Score 675 | Record: 11250 | Steps: 82
+Frames: 1113818
+Game 10123 | Score 1150 | Record: 11250 | Steps: 188
+Frames: 1114006
+Game 10124 | Score 675 | Record: 11250 | Steps: 114
+Frames: 1114120
+Game 10125 | Score 425 | Record: 11250 | Steps: 165
+Frames: 1114285
+Game 10126 | Score 600 | Record: 11250 | Steps: 172
+Frames: 1114457
+Game 10127 | Score 550 | Record: 11250 | Steps: 136
+Frames: 1114593
+Game 10128 | Score 675 | Record: 11250 | Steps: 142
+Frames: 1114735
+Game 10129 | Score 675 | Record: 11250 | Steps: 181
+Frames: 1114916
+Game 10130 | Score 2675 | Record: 11250 | Steps: 188
+Frames: 1115104
+Game 10131 | Score 450 | Record: 11250 | Steps: 187
+Frames: 1115291
+Game 10132 | Score 2575 | Record: 11250 | Steps: 166
+Frames: 1115457
+Game 10133 | Score 2200 | Record: 11250 | Steps: 150
+Frames: 1115607
+Game 10134 | Score 675 | Record: 11250 | Steps: 119
+Frames: 1115726
+Game 10135 | Score 675 | Record: 11250 | Steps: 126
+Frames: 1115852
+Game 10136 | Score 675 | Record: 11250 | Steps: 144
+Frames: 1115996
+Game 10137 | Score 475 | Record: 11250 | Steps: 153
+Frames: 1116149
+Game 10138 | Score 675 | Record: 11250 | Steps: 107
+Frames: 1116256
+Game 10139 | Score 675 | Record: 11250 | Steps: 121
+Frames: 1116377
+Game 10140 | Score 275 | Record: 11250 | Steps: 133
+Frames: 1116510
+Game 10141 | Score 675 | Record: 11250 | Steps: 86
+Frames: 1116596
+Game 10142 | Score 675 | Record: 11250 | Steps: 122
+Frames: 1116718
+Game 10143 | Score 675 | Record: 11250 | Steps: 179
+Frames: 1116897
+Game 10144 | Score 675 | Record: 11250 | Steps: 109
+Frames: 1117006
+Game 10145 | Score 650 | Record: 11250 | Steps: 94
+Frames: 1117100
+Game 10146 | Score 2275 | Record: 11250 | Steps: 179
+Frames: 1117279
+Game 10147 | Score 600 | Record: 11250 | Steps: 152
+Frames: 1117431
+Game 10148 | Score 575 | Record: 11250 | Steps: 149
+Frames: 1117580
+Game 10149 | Score 575 | Record: 11250 | Steps: 80
+Frames: 1117660
+Game 10150 | Score 625 | Record: 11250 | Steps: 254
+Frames: 1117914
+Game 10151 | Score 600 | Record: 11250 | Steps: 127
+Frames: 1118041
+Game 10152 | Score 8740 | Record: 11250 | Steps: 279
+Frames: 1118320
+Game 10153 | Score 3275 | Record: 11250 | Steps: 239
+Frames: 1118559
+Game 10154 | Score 675 | Record: 11250 | Steps: 91
+Frames: 1118650
+Game 10155 | Score 650 | Record: 11250 | Steps: 203
+Frames: 1118853
+Game 10156 | Score 600 | Record: 11250 | Steps: 129
+Frames: 1118982
+Game 10157 | Score 675 | Record: 11250 | Steps: 86
+Frames: 1119068
+Game 10158 | Score 625 | Record: 11250 | Steps: 160
+Frames: 1119228
+Game 10159 | Score 525 | Record: 11250 | Steps: 156
+Frames: 1119384
+Game 10160 | Score 3150 | Record: 11250 | Steps: 248
+Frames: 1119632
+Game 10161 | Score 550 | Record: 11250 | Steps: 112
+Frames: 1119744
+Game 10162 | Score 675 | Record: 11250 | Steps: 136
+Frames: 1119880
+Game 10163 | Score 600 | Record: 11250 | Steps: 263
+Frames: 1120143
+Game 10164 | Score 675 | Record: 11250 | Steps: 181
+Frames: 1120324
+Game 10165 | Score 650 | Record: 11250 | Steps: 200
+Frames: 1120524
+Game 10166 | Score 475 | Record: 11250 | Steps: 125
+Frames: 1120649
+Game 10167 | Score 2425 | Record: 11250 | Steps: 168
+Frames: 1120817
+Game 10168 | Score 575 | Record: 11250 | Steps: 137
+Frames: 1120954
+Game 10169 | Score 625 | Record: 11250 | Steps: 145
+Frames: 1121099
+Game 10170 | Score 575 | Record: 11250 | Steps: 102
+Frames: 1121201
+Game 10171 | Score 675 | Record: 11250 | Steps: 142
+Frames: 1121343
+Game 10172 | Score 475 | Record: 11250 | Steps: 85
+Frames: 1121428
+Game 10173 | Score 675 | Record: 11250 | Steps: 156
+Frames: 1121584
+Game 10174 | Score 675 | Record: 11250 | Steps: 149
+Frames: 1121733
+Game 10175 | Score 675 | Record: 11250 | Steps: 174
+Frames: 1121907
+Game 10176 | Score 675 | Record: 11250 | Steps: 157
+Frames: 1122064
+Game 10177 | Score 675 | Record: 11250 | Steps: 146
+Frames: 1122210
+Game 10178 | Score 675 | Record: 11250 | Steps: 200
+Frames: 1122410
+Game 10179 | Score 650 | Record: 11250 | Steps: 214
+Frames: 1122624
+Game 10180 | Score 2350 | Record: 11250 | Steps: 92
+Frames: 1122716
+Game 10181 | Score 625 | Record: 11250 | Steps: 109
+Frames: 1122825
+Game 10182 | Score 600 | Record: 11250 | Steps: 135
+Frames: 1122960
+Game 10183 | Score 600 | Record: 11250 | Steps: 139
+Frames: 1123099
+Game 10184 | Score 525 | Record: 11250 | Steps: 137
+Frames: 1123236
+Game 10185 | Score 675 | Record: 11250 | Steps: 87
+Frames: 1123323
+Game 10186 | Score 675 | Record: 11250 | Steps: 138
+Frames: 1123461
+Game 10187 | Score 675 | Record: 11250 | Steps: 100
+Frames: 1123561
+Game 10188 | Score 675 | Record: 11250 | Steps: 141
+Frames: 1123702
+Game 10189 | Score 675 | Record: 11250 | Steps: 122
+Frames: 1123824
+Game 10190 | Score 525 | Record: 11250 | Steps: 195
+Frames: 1124019
+Game 10191 | Score 2800 | Record: 11250 | Steps: 148
+Frames: 1124167
+Game 10192 | Score 675 | Record: 11250 | Steps: 172
+Frames: 1124339
+Game 10193 | Score 575 | Record: 11250 | Steps: 154
+Frames: 1124493
+Game 10194 | Score 675 | Record: 11250 | Steps: 75
+Frames: 1124568
+Game 10195 | Score 2575 | Record: 11250 | Steps: 211
+Frames: 1124779
+Game 10196 | Score 675 | Record: 11250 | Steps: 76
+Frames: 1124855
+Game 10197 | Score 675 | Record: 11250 | Steps: 102
+Frames: 1124957
+Game 10198 | Score 275 | Record: 11250 | Steps: 179
+Frames: 1125136
+Game 10199 | Score 550 | Record: 11250 | Steps: 209
+Frames: 1125345
+Game 10200 | Score 1175 | Record: 11250 | Steps: 269
+Frames: 1125614
+Game 10201 | Score 650 | Record: 11250 | Steps: 122
+Frames: 1125736
+Game 10202 | Score 575 | Record: 11250 | Steps: 221
+Frames: 1125957
+Game 10203 | Score 675 | Record: 11250 | Steps: 75
+Frames: 1126032
+Game 10204 | Score 425 | Record: 11250 | Steps: 164
+Frames: 1126196
+Game 10205 | Score 2175 | Record: 11250 | Steps: 144
+Frames: 1126340
+Game 10206 | Score 2575 | Record: 11250 | Steps: 207
+Frames: 1126547
+Game 10207 | Score 1175 | Record: 11250 | Steps: 194
+Frames: 1126741
+Game 10208 | Score 5025 | Record: 11250 | Steps: 257
+Frames: 1126998
+Game 10209 | Score 375 | Record: 11250 | Steps: 173
+Frames: 1127171
+Game 10210 | Score 425 | Record: 11250 | Steps: 114
+Frames: 1127285
+Game 10211 | Score 450 | Record: 11250 | Steps: 75
+Frames: 1127360
+Game 10212 | Score 650 | Record: 11250 | Steps: 219
+Frames: 1127579
+Game 10213 | Score 325 | Record: 11250 | Steps: 188
+Frames: 1127767
+Game 10214 | Score 675 | Record: 11250 | Steps: 83
+Frames: 1127850
+Game 10215 | Score 1175 | Record: 11250 | Steps: 195
+Frames: 1128045
+Game 10216 | Score 2375 | Record: 11250 | Steps: 163
+Frames: 1128208
+Game 10217 | Score 600 | Record: 11250 | Steps: 153
+Frames: 1128361
+Game 10218 | Score 625 | Record: 11250 | Steps: 142
+Frames: 1128503
+Game 10219 | Score 475 | Record: 11250 | Steps: 139
+Frames: 1128642
+Game 10220 | Score 475 | Record: 11250 | Steps: 125
+Frames: 1128767
+Game 10221 | Score 675 | Record: 11250 | Steps: 150
+Frames: 1128917
+Game 10222 | Score 675 | Record: 11250 | Steps: 110
+Frames: 1129027
+Game 10223 | Score 675 | Record: 11250 | Steps: 114
+Frames: 1129141
+Game 10224 | Score 625 | Record: 11250 | Steps: 122
+Frames: 1129263
+Game 10225 | Score 2025 | Record: 11250 | Steps: 101
+Frames: 1129364
+Game 10226 | Score 625 | Record: 11250 | Steps: 136
+Frames: 1129500
+Game 10227 | Score 2475 | Record: 11250 | Steps: 228
+Frames: 1129728
+Game 10228 | Score 2775 | Record: 11250 | Steps: 205
+Frames: 1129933
+Game 10229 | Score 675 | Record: 11250 | Steps: 186
+Frames: 1130119
+Game 10230 | Score 675 | Record: 11250 | Steps: 93
+Frames: 1130212
+Game 10231 | Score 2975 | Record: 11250 | Steps: 202
+Frames: 1130414
+Game 10232 | Score 2425 | Record: 11250 | Steps: 173
+Frames: 1130587
+Game 10233 | Score 675 | Record: 11250 | Steps: 150
+Frames: 1130737
+Game 10234 | Score 675 | Record: 11250 | Steps: 134
+Frames: 1130871
+Game 10235 | Score 675 | Record: 11250 | Steps: 160
+Frames: 1131031
+Game 10236 | Score 625 | Record: 11250 | Steps: 129
+Frames: 1131160
+Game 10237 | Score 675 | Record: 11250 | Steps: 176
+Frames: 1131336
+Game 10238 | Score 475 | Record: 11250 | Steps: 160
+Frames: 1131496
+Game 10239 | Score 1175 | Record: 11250 | Steps: 166
+Frames: 1131662
+Game 10240 | Score 2575 | Record: 11250 | Steps: 193
+Frames: 1131855
+Game 10241 | Score 625 | Record: 11250 | Steps: 120
+Frames: 1131975
+Game 10242 | Score 675 | Record: 11250 | Steps: 103
+Frames: 1132078
+Game 10243 | Score 525 | Record: 11250 | Steps: 168
+Frames: 1132246
+Game 10244 | Score 2475 | Record: 11250 | Steps: 118
+Frames: 1132364
+Game 10245 | Score 275 | Record: 11250 | Steps: 133
+Frames: 1132497
+Game 10246 | Score 575 | Record: 11250 | Steps: 126
+Frames: 1132623
+Game 10247 | Score 575 | Record: 11250 | Steps: 97
+Frames: 1132720
+Game 10248 | Score 625 | Record: 11250 | Steps: 175
+Frames: 1132895
+Game 10249 | Score 425 | Record: 11250 | Steps: 89
+Frames: 1132984
+Game 10250 | Score 525 | Record: 11250 | Steps: 167
+Frames: 1133151
+Game 10251 | Score 1175 | Record: 11250 | Steps: 108
+Frames: 1133259
+Game 10252 | Score 6300 | Record: 11250 | Steps: 232
+Frames: 1133491
+Game 10253 | Score 650 | Record: 11250 | Steps: 75
+Frames: 1133566
+Game 10254 | Score 575 | Record: 11250 | Steps: 168
+Frames: 1133734
+Game 10255 | Score 675 | Record: 11250 | Steps: 152
+Frames: 1133886
+Game 10256 | Score 475 | Record: 11250 | Steps: 185
+Frames: 1134071
+Game 10257 | Score 625 | Record: 11250 | Steps: 191
+Frames: 1134262
+Game 10258 | Score 350 | Record: 11250 | Steps: 268
+Frames: 1134530
+Game 10259 | Score 675 | Record: 11250 | Steps: 224
+Frames: 1134754
+Game 10260 | Score 2325 | Record: 11250 | Steps: 203
+Frames: 1134957
+Game 10261 | Score 475 | Record: 11250 | Steps: 104
+Frames: 1135061
+Game 10262 | Score 275 | Record: 11250 | Steps: 157
+Frames: 1135218
+Game 10263 | Score 425 | Record: 11250 | Steps: 131
+Frames: 1135349
+Game 10264 | Score 675 | Record: 11250 | Steps: 180
+Frames: 1135529
+Game 10265 | Score 675 | Record: 11250 | Steps: 171
+Frames: 1135700
+Game 10266 | Score 675 | Record: 11250 | Steps: 181
+Frames: 1135881
+Game 10267 | Score 650 | Record: 11250 | Steps: 155
+Frames: 1136036
+Game 10268 | Score 475 | Record: 11250 | Steps: 167
+Frames: 1136203
+Game 10269 | Score 5525 | Record: 11250 | Steps: 259
+Frames: 1136462
+Game 10270 | Score 500 | Record: 11250 | Steps: 132
+Frames: 1136594
+Game 10271 | Score 525 | Record: 11250 | Steps: 172
+Frames: 1136766
+Game 10272 | Score 1150 | Record: 11250 | Steps: 189
+Frames: 1136955
+Game 10273 | Score 2275 | Record: 11250 | Steps: 117
+Frames: 1137072
+Game 10274 | Score 8325 | Record: 11250 | Steps: 470
+Frames: 1137542
+Game 10275 | Score 675 | Record: 11250 | Steps: 132
+Frames: 1137674
+Game 10276 | Score 600 | Record: 11250 | Steps: 134
+Frames: 1137808
+Game 10277 | Score 2750 | Record: 11250 | Steps: 189
+Frames: 1137997
+Game 10278 | Score 650 | Record: 11250 | Steps: 157
+Frames: 1138154
+Game 10279 | Score 675 | Record: 11250 | Steps: 110
+Frames: 1138264
+Game 10280 | Score 675 | Record: 11250 | Steps: 111
+Frames: 1138375
+Game 10281 | Score 675 | Record: 11250 | Steps: 126
+Frames: 1138501
+Game 10282 | Score 675 | Record: 11250 | Steps: 153
+Frames: 1138654
+Game 10283 | Score 2300 | Record: 11250 | Steps: 110
+Frames: 1138764
+Game 10284 | Score 575 | Record: 11250 | Steps: 217
+Frames: 1138981
+Game 10285 | Score 675 | Record: 11250 | Steps: 126
+Frames: 1139107
+Game 10286 | Score 475 | Record: 11250 | Steps: 134
+Frames: 1139241
+Game 10287 | Score 675 | Record: 11250 | Steps: 107
+Frames: 1139348
+Game 10288 | Score 675 | Record: 11250 | Steps: 139
+Frames: 1139487
+Game 10289 | Score 675 | Record: 11250 | Steps: 64
+Frames: 1139551
+Game 10290 | Score 550 | Record: 11250 | Steps: 137
+Frames: 1139688
+Game 10291 | Score 2550 | Record: 11250 | Steps: 181
+Frames: 1139869
+Game 10292 | Score 675 | Record: 11250 | Steps: 104
+Frames: 1139973
+Game 10293 | Score 675 | Record: 11250 | Steps: 65
+Frames: 1140038
+Game 10294 | Score 600 | Record: 11250 | Steps: 185
+Frames: 1140223
+Game 10295 | Score 550 | Record: 11250 | Steps: 131
+Frames: 1140354
+Game 10296 | Score 625 | Record: 11250 | Steps: 140
+Frames: 1140494
+Game 10297 | Score 2450 | Record: 11250 | Steps: 102
+Frames: 1140596
+Game 10298 | Score 675 | Record: 11250 | Steps: 94
+Frames: 1140690
+Game 10299 | Score 675 | Record: 11250 | Steps: 211
+Frames: 1140901
+Game 10300 | Score 625 | Record: 11250 | Steps: 123
+Frames: 1141024
+Game 10301 | Score 525 | Record: 11250 | Steps: 194
+Frames: 1141218
+Game 10302 | Score 675 | Record: 11250 | Steps: 126
+Frames: 1141344
+Game 10303 | Score 675 | Record: 11250 | Steps: 186
+Frames: 1141530
+Game 10304 | Score 475 | Record: 11250 | Steps: 184
+Frames: 1141714
+Game 10305 | Score 625 | Record: 11250 | Steps: 147
+Frames: 1141861
+Game 10306 | Score 675 | Record: 11250 | Steps: 154
+Frames: 1142015
+Game 10307 | Score 1975 | Record: 11250 | Steps: 116
+Frames: 1142131
+Game 10308 | Score 425 | Record: 11250 | Steps: 101
+Frames: 1142232
+Game 10309 | Score 675 | Record: 11250 | Steps: 105
+Frames: 1142337
+Game 10310 | Score 675 | Record: 11250 | Steps: 77
+Frames: 1142414
+Game 10311 | Score 675 | Record: 11250 | Steps: 133
+Frames: 1142547
+Game 10312 | Score 425 | Record: 11250 | Steps: 136
+Frames: 1142683
+Game 10313 | Score 2200 | Record: 11250 | Steps: 115
+Frames: 1142798
+Game 10314 | Score 675 | Record: 11250 | Steps: 164
+Frames: 1142962
+Game 10315 | Score 675 | Record: 11250 | Steps: 119
+Frames: 1143081
+Game 10316 | Score 575 | Record: 11250 | Steps: 199
+Frames: 1143280
+Game 10317 | Score 675 | Record: 11250 | Steps: 162
+Frames: 1143442
+Game 10318 | Score 2475 | Record: 11250 | Steps: 144
+Frames: 1143586
+Game 10319 | Score 675 | Record: 11250 | Steps: 142
+Frames: 1143728
+Game 10320 | Score 500 | Record: 11250 | Steps: 116
+Frames: 1143844
+Game 10321 | Score 675 | Record: 11250 | Steps: 118
+Frames: 1143962
+Game 10322 | Score 2275 | Record: 11250 | Steps: 133
+Frames: 1144095
+Game 10323 | Score 650 | Record: 11250 | Steps: 117
+Frames: 1144212
+Game 10324 | Score 675 | Record: 11250 | Steps: 171
+Frames: 1144383
+Game 10325 | Score 625 | Record: 11250 | Steps: 111
+Frames: 1144494
+Game 10326 | Score 2475 | Record: 11250 | Steps: 170
+Frames: 1144664
+Game 10327 | Score 475 | Record: 11250 | Steps: 131
+Frames: 1144795
+Game 10328 | Score 2475 | Record: 11250 | Steps: 122
+Frames: 1144917
+Game 10329 | Score 625 | Record: 11250 | Steps: 135
+Frames: 1145052
+Game 10330 | Score 650 | Record: 11250 | Steps: 98
+Frames: 1145150
+Game 10331 | Score 2475 | Record: 11250 | Steps: 123
+Frames: 1145273
+Game 10332 | Score 675 | Record: 11250 | Steps: 114
+Frames: 1145387
+Game 10333 | Score 600 | Record: 11250 | Steps: 97
+Frames: 1145484
+Game 10334 | Score 2725 | Record: 11250 | Steps: 168
+Frames: 1145652
+Game 10335 | Score 475 | Record: 11250 | Steps: 138
+Frames: 1145790
+Game 10336 | Score 675 | Record: 11250 | Steps: 116
+Frames: 1145906
+Game 10337 | Score 650 | Record: 11250 | Steps: 166
+Frames: 1146072
+Game 10338 | Score 1175 | Record: 11250 | Steps: 121
+Frames: 1146193
+Game 10339 | Score 275 | Record: 11250 | Steps: 157
+Frames: 1146350
+Game 10340 | Score 600 | Record: 11250 | Steps: 153
+Frames: 1146503
+Game 10341 | Score 2475 | Record: 11250 | Steps: 174
+Frames: 1146677
+Game 10342 | Score 575 | Record: 11250 | Steps: 84
+Frames: 1146761
+Game 10343 | Score 500 | Record: 11250 | Steps: 155
+Frames: 1146916
+Game 10344 | Score 2550 | Record: 11250 | Steps: 152
+Frames: 1147068
+Game 10345 | Score 675 | Record: 11250 | Steps: 111
+Frames: 1147179
+Game 10346 | Score 600 | Record: 11250 | Steps: 127
+Frames: 1147306
+Game 10347 | Score 675 | Record: 11250 | Steps: 191
+Frames: 1147497
+Game 10348 | Score 2225 | Record: 11250 | Steps: 154
+Frames: 1147651
+Game 10349 | Score 2950 | Record: 11250 | Steps: 210
+Frames: 1147861
+Game 10350 | Score 675 | Record: 11250 | Steps: 56
+Frames: 1147917
+Game 10351 | Score 575 | Record: 11250 | Steps: 147
+Frames: 1148064
+Game 10352 | Score 650 | Record: 11250 | Steps: 113
+Frames: 1148177
+Game 10353 | Score 2475 | Record: 11250 | Steps: 189
+Frames: 1148366
+Game 10354 | Score 475 | Record: 11250 | Steps: 85
+Frames: 1148451
+Game 10355 | Score 650 | Record: 11250 | Steps: 165
+Frames: 1148616
+Game 10356 | Score 600 | Record: 11250 | Steps: 142
+Frames: 1148758
+Game 10357 | Score 1175 | Record: 11250 | Steps: 157
+Frames: 1148915
+Game 10358 | Score 675 | Record: 11250 | Steps: 124
+Frames: 1149039
+Game 10359 | Score 500 | Record: 11250 | Steps: 174
+Frames: 1149213
+Game 10360 | Score 675 | Record: 11250 | Steps: 136
+Frames: 1149349
+Game 10361 | Score 600 | Record: 11250 | Steps: 155
+Frames: 1149504
+Game 10362 | Score 675 | Record: 11250 | Steps: 117
+Frames: 1149621
+Game 10363 | Score 600 | Record: 11250 | Steps: 139
+Frames: 1149760
+Game 10364 | Score 425 | Record: 11250 | Steps: 148
+Frames: 1149908
+Game 10365 | Score 575 | Record: 11250 | Steps: 78
+Frames: 1149986
+Game 10366 | Score 625 | Record: 11250 | Steps: 143
+Frames: 1150129
