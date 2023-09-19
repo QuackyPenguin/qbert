@@ -5,20 +5,31 @@ JUMP_DURATION = 12
 
 
 class Player:
-    def __init__(self, x, y, image, window):
+    def __init__(self, x, y, image):
         self.x = x
         self.y = y
         self.image = image
-        self.window = window
         self.cubeNumber = 0
         self.rowNumber = 1
         self.jumpDirection = STANDING
         self.jumpCount = 0
-        self.leftPlatform = True
-        self.rightPlatform = True
-        self.lives = 3
+        self.lives = 1
+    
+    
+    def __deepcopy__(self, memo):
+        new_instance = self.__class__(self.x, self.y, self.image)
 
-    def draw(self):
+        new_instance.x = self.x
+        new_instance.y = self.y
+        new_instance.cubeNumber = self.cubeNumber
+        new_instance.rowNumber = self.rowNumber
+        new_instance.jumpDirection = self.jumpDirection
+        new_instance.jumpCount=self.jumpCount
+        new_instance.lives = self.lives
+        
+        return new_instance
+
+    def move(self):
         if variables.jump_direction_player != self.jumpDirection and self.jumpCount == 0:
             self.jumpCount = JUMP_DURATION
             self.jumpDirection = variables.jump_direction_player
@@ -87,7 +98,8 @@ class Player:
 
             elif self.jumpDirection == LEFT_SPIN:
                 self.x += (variables.cubes[0].x - variables.helpx) // 44
-                self.y -= (variables.helpy + CUBE_SIZE - variables.cubes[0].y) // 44
+                self.y -= (variables.helpy + CUBE_SIZE -
+                           variables.cubes[0].y) // 44
                 if self.image == IMAGE_PLAYER_SPINS[0]:
                     self.image = IMAGE_PLAYER_SPINS[1]
                 else:
@@ -101,7 +113,8 @@ class Player:
 
             elif self.jumpDirection == RIGHT_SPIN:
                 self.x -= (variables.helpx - variables.cubes[0].x) // 44
-                self.y -= (variables.helpy + CUBE_SIZE - variables.cubes[0].y) // 44
+                self.y -= (variables.helpy + CUBE_SIZE -
+                           variables.cubes[0].y) // 44
                 if self.image == IMAGE_PLAYER_SPINS[0]:
                     self.image = IMAGE_PLAYER_SPINS[1]
                 else:
@@ -137,7 +150,11 @@ class Player:
                 elif variables.jump_direction_player == UP_RIGHT:
                     self.image = IMAGE_PLAYER_RIGHT_UP_JUMP
 
-        self.window.blit(self.image, (self.x + CUBE_SIZE // 8, self.y - CUBE_SIZE * 5 // 8))
+    def draw(self):
+        self.move()
+
+        variables.game_window.blit(self.image, (self.x + CUBE_SIZE //
+                         8, self.y - CUBE_SIZE * 5 // 8))
 
         for i in range(0, self.lives):
-            self.window.blit(IMAGE_PLAYER_LITTLE, (20, 300 + i * 30))
+            variables.game_window.blit(IMAGE_PLAYER_LITTLE, (20, 300 + i * 30))

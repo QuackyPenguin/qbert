@@ -1,14 +1,14 @@
 import variables
 from constants import *
 from player import Player
+import copy
 
 JUMP_DURATION = 24
 
 
 class Enemy:
-    def __init__(self, image, window, time):
+    def __init__(self, image, time):
         self.image = image
-        self.window = window
         self.jumpCount = JUMP_DURATION * 2
         self.x = 0
         self.y = 0
@@ -17,6 +17,25 @@ class Enemy:
         self.destroy = False
         self.time = time
         self.jumpDirection = FALLING
+        self.version = 0
+    
+    def __deepcopy__(self, memo):
+        new_instance = self.__class__(self.image, self.time)
+        
+        new_instance.jumpCount = self.jumpCount
+        new_instance.x = self.x
+        new_instance.y = self.y
+        new_instance.cubeNumber = self.cubeNumber
+        new_instance.rowNumber = self.rowNumber
+        new_instance.destroy = self.destroy
+        new_instance.time = self.time
+        new_instance.jumpDirection = self.jumpDirection
+        new_instance.version = self.version
+
+        return new_instance
+
+    def move(self):
+        pass
 
     def draw(self):
         pass

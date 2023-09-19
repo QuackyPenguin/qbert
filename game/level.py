@@ -16,32 +16,32 @@ from wrongway import Wrongway
 
 class Level:
     def __init__(self):
-        self.level = 1
-        self.round = 1
+        self.level = 0
+        self.round = 0
         self.colors = [COLOR_BLUE, COLOR_YELLOW]
 
     def next_color(self, number):
         old_color = variables.cubes[number].color
         new_color = COLOR_BLACK
 
-        if self.level == 1:
+        if self.level == 1 or (self.level == 0 and self.round == 0):
             new_color = self.colors[1]
-        elif self.level == 2:
+        elif self.level == 2 or (self.level == 0 and self.round == 1):
             if old_color == self.colors[0]:
                 new_color = self.colors[1]
             else:
                 new_color = self.colors[2]
-        elif self.level == 3:
+        elif self.level == 3 or (self.level == 0 and self.round == 2):
             if old_color == self.colors[0]:
                 new_color = self.colors[1]
             else:
                 new_color = self.colors[0]
-        elif self.level == 4:
+        elif self.level == 4 or (self.level == 0 and self.round == 3):
             if old_color == self.colors[1]:
                 new_color = self.colors[2]
             else:
                 new_color = self.colors[1]
-        elif self.level >= 5:
+        elif self.level >= 5 or (self.level == 0 and self.round == 4):
             if old_color == self.colors[0]:
                 new_color = self.colors[1]
             elif old_color == self.colors[1]:
@@ -61,6 +61,11 @@ class Level:
                 break
 
         if flag:
+            if self.level == 0:
+                variables.score += 1000
+            else:
+                variables.score += ((self.level - 1) * 4 +
+                                    (self.round - 1)) * 250 + 1000
             variables.celebrate = True
             variables.round_completed = True
             if self.round == 4:
@@ -70,7 +75,7 @@ class Level:
             else:
                 self.round += 1
 
-            if self.level == 1 or self.level == 3:
+            if self.level == 1 or self.level == 3 or (self.level == 0 and (self.round == 0 or self.round == 2)):
                 if self.round == 1:
                     self.colors = [COLOR_BLUE, COLOR_YELLOW]
                 elif self.round == 2:
@@ -90,7 +95,7 @@ class Level:
                     self.colors = [COLOR_BROWN, COLOR_SKY_BLUE, COLOR_LIME]
 
     def init_next_level(self):
-        variables.speed = max(15, variables.speed - 1)
+        variables.speed = max(10, variables.speed - 1)
         (variables.player.x, variables.player.y, variables.player.image,
          variables.player.cubeNumber, variables.player.rowNumber,
          variables.player.leftPlatform, variables.player.rightPlatform) = (
@@ -103,6 +108,17 @@ class Level:
         variables.enemies = []
 
         number_of_discs = 2
+        if self.level == 0:
+            if self.round == 0:
+                number_of_discs = 1
+            elif self.round == 1:
+                number_of_discs = 3
+            elif self.round == 2:
+                number_of_discs = 2
+            elif self.round == 3:
+                number_of_discs = 5
+            elif self.round == 4:
+                number_of_discs = 7
         if (self.level == 2 and (self.round == 1 or self.round == 2)) or (
                 self.level == 3 and (self.round == 3 or self.round == 4)):
             number_of_discs = 3
@@ -119,18 +135,18 @@ class Level:
         for i in range(0, number_of_discs):
             variables.discs.append(Disc(variables.discs))
 
-        variables.score += ((self.level - 1) * 4 + (self.round - 1)) * 250 + 1000
-
         variables.round_completed = False
         variables.level_completed = False
 
     def next_enemy_appearance(self):
-        a = max(6 - self.level // 2, 2)
-        b = max(14 - self.level // 3 - self.round // 2, 7)
+        if self.round == 0:
+            return -1
+        a = max(7 - self.level // 2, 3)
+        b = max(14 - self.level // 3 - self.round // 2, 8)
         time = variables.game_time + random.randint(a, b) * JUMP_DURATION
         return time
 
-    def generate_enemy(self, game_window) -> Enemy:
+    def generate_enemy(self) -> Enemy:
         red_ball_odds = coily_odds = ugg_odds = wrongway_odds = sam_odds = slick_odds = green_ball_odds = 1000
         red_ball_odds += 250
         number_of_red_balls = 0
@@ -154,6 +170,56 @@ class Level:
 
         odds_array = []
         case_array = []
+
+        if self.level == 0:
+            if self.round == 0:
+                odds_array.append(red_ball_odds)
+                case_array.append(RED_BALL)
+
+            elif self.round == 1:
+                red_ball_odds = red_ball_odds + 1000 * (self.round % 2)
+                red_ball_odds -= number_of_red_balls * 1000 / 4.5
+
+                odds_array.append(red_ball_odds)
+                case_array.append(RED_BALL)
+                odds_array.append(coily_odds)
+                case_array.append(COILY)
+            
+            elif self.round == 3:
+                odds_array.append(green_ball_odds)
+                case_array.append(GREEN_BALL)
+                odds_array.append(coily_odds)
+                case_array.append(COILY)
+                odds_array.append(ugg_odds)
+                case_array.append(UGG)
+                odds_array.append(wrongway_odds)
+                case_array.append(WRONGWAY)
+            
+            elif self.round == 2:
+                odds_array.append(green_ball_odds)
+                case_array.append(GREEN_BALL)
+                odds_array.append(sam_odds)
+                case_array.append(SAM)
+                odds_array.append(slick_odds)
+                case_array.append(SLICK)
+            
+            elif self.round == 4:
+                red_ball_odds -= number_of_red_balls * 1000 / 4.5
+
+                odds_array.append(green_ball_odds)
+                case_array.append(GREEN_BALL)
+                odds_array.append(red_ball_odds)
+                case_array.append(RED_BALL)
+                odds_array.append(coily_odds)
+                case_array.append(COILY)
+                odds_array.append(ugg_odds)
+                case_array.append(UGG)
+                odds_array.append(wrongway_odds)
+                case_array.append(WRONGWAY)
+                odds_array.append(sam_odds)
+                case_array.append(SAM)
+                odds_array.append(slick_odds)
+                case_array.append(SLICK)
 
         if self.level == 1 and (self.round == 1 or self.round == 2):
             red_ball_odds = red_ball_odds + 1000 * (self.round % 2)
@@ -241,16 +307,16 @@ class Level:
             odds_sum += odds_array[i]
 
         if case_enemy == RED_BALL:
-            return RedBall(IMAGE_RED_BALL, game_window, variables.game_time)
+            return RedBall(IMAGE_RED_BALL, variables.game_time)
         elif case_enemy == COILY:
-            return Coily(IMAGE_PURPLE_BALL, game_window, variables.game_time)
+            return Coily(IMAGE_PURPLE_BALL, variables.game_time)
         elif case_enemy == UGG:
-            return Ugg(IMAGE_UGG_LEFT, game_window, variables.game_time)
+            return Ugg(IMAGE_UGG_LEFT, variables.game_time)
         elif case_enemy == WRONGWAY:
-            return Wrongway(IMAGE_WRONGWAY_LEFT, game_window, variables.game_time)
+            return Wrongway(IMAGE_WRONGWAY_LEFT, variables.game_time)
         elif case_enemy == SAM:
-            return Sam(IMAGE_SAM_LEFT, game_window, variables.game_time)
+            return Sam(IMAGE_SAM_LEFT, variables.game_time)
         elif case_enemy == SLICK:
-            return Slick(IMAGE_SLICK_LEFT, game_window, variables.game_time)
+            return Slick(IMAGE_SLICK_LEFT, variables.game_time)
         elif case_enemy == GREEN_BALL:
-            return GreenBall(IMAGE_GREEN_BALL, game_window, variables.game_time)
+            return GreenBall(IMAGE_GREEN_BALL, variables.game_time)

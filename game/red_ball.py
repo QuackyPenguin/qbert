@@ -7,15 +7,15 @@ from valid_cube_number_and_row import valid_cube_number_and_row
 
 
 class RedBall(Enemy):
-    def __init__(self, image, window, time):
-        super().__init__(image, window, time)
+    def __init__(self, image, time):
+        super().__init__(image, time)
         rand_cube = random.randint(1, 2)
         self.x = variables.cubes[rand_cube].x
         self.y = variables.cubes[rand_cube].y - CUBE_SIZE * 4
         self.cubeNumber = rand_cube
         self.rowNumber = 2
 
-    def draw(self):
+    def move(self):
         if not variables.freeze:
             if self.jumpCount == 0 and not self.destroy:
                 if not valid_cube_number_and_row(self.cubeNumber + self.rowNumber, self.rowNumber + 1):
@@ -59,4 +59,7 @@ class RedBall(Enemy):
                     if self.rowNumber > 7:
                         self.destroy = True
 
-        self.window.blit(self.image, (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4))
+    def draw(self):
+        self.move()
+
+        variables.game_window.blit(self.image, (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4))

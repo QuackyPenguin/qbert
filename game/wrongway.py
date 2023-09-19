@@ -8,14 +8,14 @@ from valid_cube_number_and_row import valid_cube_number_and_row_coily
 
 
 class Wrongway(Enemy):
-    def __init__(self, image, window, time):
-        super().__init__(image, window, time)
+    def __init__(self, image, time):
+        super().__init__(image, time)
         self.cubeNumber = 21
         self.rowNumber = 7
         self.x = variables.cubes[21].x - CUBE_SIZE * 3 // 4 - CUBE_SIZE // 2
         self.y = variables.cubes[21].y + CUBE_SIZE // 4 + CUBE_SIZE * 2
 
-    def draw(self):
+    def move(self):
         if not variables.freeze:
             if self.jumpDirection == STANDING:
                 self.jumpCount -= 1
@@ -64,7 +64,10 @@ class Wrongway(Enemy):
                         self.x = variables.cubes[self.cubeNumber].x + CUBE_SIZE * 3 // 4
                         self.y = variables.cubes[self.cubeNumber].y + CUBE_SIZE // 4
 
-        self.window.blit(self.image, (self.x - CUBE_SIZE, self.y))
+    def draw(self):
+        self.move()
+
+        variables.game_window.blit(self.image, (self.x - CUBE_SIZE, self.y))
 
     def detect_collision(self, player: Player) -> bool:
         if player.jumpDirection == RIGHT_SPIN or player.jumpDirection == LEFT_SPIN or player.jumpDirection == FALLING:

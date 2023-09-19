@@ -10,7 +10,7 @@ from player import Player
 jump_direction_player = STANDING
 state = START
 score = 0
-speed = 35
+speed = 50
 freeze = False
 freeze_timer = 0
 rainbow_color = 0
@@ -26,3 +26,5 @@ level_completed: Optional[bool] = None
 enemies: Optional[List[Enemy]] = []
 discs: Optional[List[Disc]] = []
 game_time = 0
+game_window = None
+font = None

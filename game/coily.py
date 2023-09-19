@@ -11,9 +11,22 @@ SNAKE = 2
 
 
 def direction(coily_cube, coily_row, player_cube, player_row):
-    coily_modifier = (coily_row * (coily_row + 1) // 2 + coily_row * (coily_row - 1) // 2) // 2
+
+    if coily_cube == player_cube and coily_row == player_row:
+        if variables.player.jumpDirection == DOWN_LEFT:
+            return DOWN_LEFT, IMAGE_COILY_LEFT
+        elif variables.player.jumpDirection == DOWN_RIGHT:
+            return DOWN_RIGHT, IMAGE_COILY_RIGHT
+        elif variables.player.jumpDirection == UP_RIGHT:
+            return UP_RIGHT, IMAGE_COILY_RIGHT
+        else:
+            return UP_LEFT, IMAGE_COILY_LEFT
+
+    coily_modifier = (coily_row * (coily_row + 1) // 2 +
+                      coily_row * (coily_row - 1) // 2) // 2
     mod_coily_cube = coily_cube - coily_modifier
-    player_modifier = (player_row * (player_row + 1) // 2 + player_row * (player_row - 1) // 2) // 2
+    player_modifier = (player_row * (player_row + 1) // 2 +
+                       player_row * (player_row - 1) // 2) // 2
     mod_player_cube = player_cube - player_modifier
 
     randomized_1 = False
@@ -77,7 +90,7 @@ def direction(coily_cube, coily_row, player_cube, player_row):
         if valid_cube_number_and_row(coily_cube - coily_row,
                                      coily_row - 1) and mod_coily_cube > mod_player_cube:
             option_array.append(3)
-        if valid_cube_number_and_row(coily_cube - coily_row - 1,
+        if valid_cube_number_and_row(coily_cube - coily_row + 1,
                                      coily_row - 1) and mod_coily_cube < mod_player_cube:
             option_array.append(4)
 
@@ -155,7 +168,7 @@ def direction(coily_cube, coily_row, player_cube, player_row):
         if valid_cube_number_and_row(coily_cube - coily_row,
                                      coily_row - 1) and mod_coily_cube > mod_player_cube:
             option_array.append(3)
-        if valid_cube_number_and_row(coily_cube - coily_row - 1,
+        if valid_cube_number_and_row(coily_cube - coily_row +1,
                                      coily_row - 1) and mod_coily_cube < mod_player_cube:
             option_array.append(4)
 
@@ -182,8 +195,8 @@ def direction(coily_cube, coily_row, player_cube, player_row):
 
 
 class Coily(Enemy):
-    def __init__(self, image, window, time):
-        super().__init__(image, window, time)
+    def __init__(self, image, time):
+        super().__init__(image, time)
         rand_cube = random.randint(1, 2)
         self.x = variables.cubes[rand_cube].x
         self.y = variables.cubes[rand_cube].y - CUBE_SIZE * 4
@@ -191,7 +204,15 @@ class Coily(Enemy):
         self.rowNumber = 2
         self.version = EGG
 
-    def draw_egg(self):
+    def move(self):
+        if self.version == EGG:
+            self.move_egg()
+        elif self.version == HATCHING:
+            self.move_hatch()
+        else:
+            self.move_snake()
+
+    def move_egg(self):
         if not variables.freeze:
             if self.jumpCount == 0:
                 if not valid_cube_number_and_row(self.cubeNumber + self.rowNumber, self.rowNumber + 1):
@@ -235,9 +256,14 @@ class Coily(Enemy):
                     self.version = HATCHING
                     self.jumpCount = JUMP_DURATION * 2
                     self.jumpDirection = UP_LEFT
-        self.window.blit(self.image, (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4))
 
-    def draw_hatch(self):
+    def draw_egg(self):
+        self.move_egg()
+
+        variables.game_window.blit(self.image, (self.x + CUBE_SIZE *
+                         3 // 8, self.y - CUBE_SIZE * 1 // 4))
+
+    def move_hatch(self):
         if not variables.freeze:
             if self.jumpCount == 0:
                 self.version = SNAKE
@@ -256,20 +282,23 @@ class Coily(Enemy):
                     elif self.jumpDirection == DOWN_LEFT:
                         self.jumpDirection = UP_LEFT
 
+    def draw_hatch(self):
+        self.move_hatch()
+
         if self.jumpDirection == UP_LEFT:
-            self.window.blit(self.image,
+            variables.game_window.blit(self.image,
                              (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4 - JUMP_DURATION // 4))
         elif self.jumpDirection == UP_RIGHT:
-            self.window.blit(self.image,
+            variables.game_window.blit(self.image,
                              (self.x + CUBE_SIZE * 3 // 8 + JUMP_DURATION // 4, self.y - CUBE_SIZE * 1 // 4))
         elif self.jumpDirection == DOWN_RIGHT:
-            self.window.blit(self.image,
+            variables.game_window.blit(self.image,
                              (self.x + CUBE_SIZE * 3 // 8, self.y - CUBE_SIZE * 1 // 4 + JUMP_DURATION // 4))
         elif self.jumpDirection == DOWN_LEFT:
-            self.window.blit(self.image,
+            variables.game_window.blit(self.image,
                              (self.x + CUBE_SIZE * 3 // 8 - JUMP_DURATION // 4, self.y - CUBE_SIZE * 1 // 4))
 
-    def draw_snake(self):
+    def move_snake(self):
         if not variables.freeze:
             if self.jumpDirection == STANDING:
                 self.jumpCount -= 1
@@ -332,11 +361,17 @@ class Coily(Enemy):
                     self.jumpCount = JUMP_DURATION // 2
                     if not valid_cube_number_and_row_coily(self.cubeNumber, self.rowNumber):
                         self.destroy = True
+                        variables.score += 500
                     else:
                         self.x = variables.cubes[self.cubeNumber].x
                         self.y = variables.cubes[self.cubeNumber].y
 
-        self.window.blit(self.image, (self.x + CUBE_SIZE * 1 // 8, self.y - CUBE_SIZE * 3 // 4))
+
+    def draw_snake(self):
+        self.move_snake()
+
+        variables.game_window.blit(self.image, (self.x + CUBE_SIZE *
+                         1 // 8, self.y - CUBE_SIZE * 3 // 4))
 
     def draw(self):
         if self.version == EGG:
